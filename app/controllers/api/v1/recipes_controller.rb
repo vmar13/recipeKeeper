@@ -1,7 +1,7 @@
-#class RecipesController < ActionController::API
-module Api
-    module V1
-        class RecipesController < ApplicationController
+class Api::V1::RecipesController < ApplicationController
+# module Api
+#     module V1
+#         class RecipesController < ApplicationController
 
         def index
             recipes = Recipe.all 
@@ -13,8 +13,4 @@ module Api
             render json: recipe 
         end
 
-
-
-        end
-    end
 end
