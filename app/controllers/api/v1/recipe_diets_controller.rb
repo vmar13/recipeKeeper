@@ -1,4 +1,5 @@
-class RecipeDietsController < ApplicationController
+class Api::V1::RecipeDietsController < ApplicationController
+
 
     def index 
         recipediets = RecipeDiet.all 
@@ -14,5 +15,6 @@ class RecipeDietsController < ApplicationController
         recipes = Recipe.all 
         diets = Diet.all 
         recipediet = RecipeDiet.new 
+
     end 
 end

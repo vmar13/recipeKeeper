@@ -4,12 +4,12 @@ Rails.application.routes.draw do
     namespace :v1 do
       resources :recipes
       resources :diets
-      resources :recipes do
+      # resources :recipes do
           resources :recipe_diets
-      end 
-      resources :diets do
-          resources :recipe_diets
-      end 
+      # end 
+      # resources :diets do
+          # resources :recipe_diets
+      # end 
     end
   end
 end
