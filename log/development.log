@@ -1,0 +1,196 @@
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT pg_try_advisory_lock(4512969124659629130)[0m
+  [1m[35m (1.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mActiveRecord::InternalMetadata Load (4.0ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT pg_advisory_unlock(4512969124659629130)[0m
+  [1m[35m (1.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mRecipe Load (3.7ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRecipe Destroy (0.6ms)[0m  [1m[31mDELETE FROM "recipes" WHERE "recipes"."id" = $1[0m  [["id", 1]]
+  [1m[35m (2.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRecipe Destroy (0.3ms)[0m  [1m[31mDELETE FROM "recipes" WHERE "recipes"."id" = $1[0m  [["id", 2]]
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRecipe Destroy (0.4ms)[0m  [1m[31mDELETE FROM "recipes" WHERE "recipes"."id" = $1[0m  [["id", 3]]
+  [1m[35m (1.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRecipe Create (0.5ms)[0m  [1m[32mINSERT INTO "recipes" ("name", "ingredients", "instructions", "image_url", "likes", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["name", "Avocado Toast"], ["ingredients", "2 slices bread, 1/2 – 3/4 medium ripe avocado, 1-2 Tbsp vegan parmesan, 1 pinch red pepper flake (optional)"], ["instructions", "Toast bread in the oven or toaster. Top with ripe avocado and use a fork to smash. Top with vegan parmesan cheese and (optional) red pepper flake. \n                        Eat, repeat, enjoy!"], ["image_url", "https://images.unsplash.com/photo-1505575156881-dd15ae275636?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=676&q=80"], ["likes", 0], ["created_at", "2020-05-24 04:09:55.463194"], ["updated_at", "2020-05-24 04:09:55.463194"]]
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRecipe Create (0.4ms)[0m  [1m[32mINSERT INTO "recipes" ("name", "ingredients", "instructions", "image_url", "likes", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["name", "Massaged Kale Salad"], ["ingredients", "2 large bundles curly kale, large stems removed and roughly chopped\n        1 Tbsp lemon juice\n        1 Tbsp extra virgin olive oil\n        1 healthy pinch sea salt\n        DRESSING\n        1/3 cup tahini\n        3 Tbsp lemon juice\n        1-2 Tbsp maple syrup \n        1 pinch sea salt (optional)\n        Water to thin"], ["instructions", "Once you’ve rinsed and dried your kale, run your hand along the stem to remove the green leaves from the stalky stem. You don’t have to remove the stem completely (we actually enjoy the top 2/3 in the salad), but be sure to compost or reserve the larger bottom stalks for DIY vegetable broth.\n        Stack your stalks of kale on top of each other and finely chop. No need to mince, just cut into manageable, bite-size pieces.\n        Add kale to a large mixing / serving bowl and top with lemon juice and extra virgin olive oil. Then massage with clean hands for about 3 minutes. The point of massaging is to infuse the kale with the lemon juice and oil, and also to break down some of the tough, fibrous characteristics of kale. This makes it easier to chew and digest, and makes for a more tender salad. Season with salt, massage/toss once more, then set aside.\n        Next prepare the dressing by adding tahini, lemon juice, maple syrup, and salt (optional) to a medium mixing bowl. Whisk to combine. Then slowly add water until creamy and pourable. The mixture may seize up and thicken at first, but continue adding water a little at a time, whisking until creamy and smooth. Taste and adjust flavor as needed, adding more lemon juice for acidity, maple syrup for sweetness, or salt to taste. Set aside. (Store leftover dressing in the refrigerator up to 5-7 days — sometimes longer.)\n        To serve, top with desired amount of dressing and crispy chickpeas (optional), toss, and serve. Leftovers keep covered in the refrigerator up to 3-4 days (not freezer friendly). We enjoy leftovers chilled, but also find that they sauté nicely (even with the dressing and chickpeas) if you’re looking for a cooked version."], ["image_url", "https://images.unsplash.com/photo-1515543237350-b3eea1ec8082?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=632&q=80"], ["likes", 0], ["created_at", "2020-05-24 04:09:55.468465"], ["updated_at", "2020-05-24 04:09:55.468465"]]
+  [1m[35m (0.8ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRecipe Create (0.6ms)[0m  [1m[32mINSERT INTO "recipes" ("name", "ingredients", "instructions", "image_url", "likes", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["name", "Roasted Chicken"], ["ingredients", "1 3-4 pound whole chicken (organic and free-range or pasture-raised whenever possible)\n        2 Tbsp melted butter (Miyoko’s or Earth Balance for dairy-free \n        3/4-1 Tbsp sea salt\n        1-2 tsp black pepper\n        1 small lemon, rinsed and quartered\n        4 sprigs fresh rosemary (or sub thyme)"], ["instructions", "NOTE: This chicken does best when prepped 24 hours in advance. If that’s not doable, season and chill at least 8-10 hours before cooking for crispier skin and more flavorful chicken.\n        Set chicken on a clean plate then wash hands with hot soapy water. Melt butter and drizzle over the skin of the chicken and brush to distribute evenly. Season the exterior and interior cavity of the chicken with salt and pepper (as the recipe is written, about 3/4-1 Tbsp sea salt and 1-2 tsp black pepper). This sounds like a lot of salt, but there should be a generous layer of seasoning on the chicken so it flavors the meat well. (For a roughly 4 lb. chicken, we used about 1 Tbsp salt and 2 tsp black pepper total.)\n        Insert the lemon and fresh rosemary into the cavity — this infuses more flavor and also makes for a more flavorful broth (if making broth afterward). \n        Set the chicken in the fridge uncovered (this allows the chicken to dry out a bit, which helps it crisp more when roasting). Wait 24-36 hours (ideally) or at least 8-10 hours to cook. At this time, be sure to wash hands with hot soapy water again and clean all surfaces well to avoid spreading bacteria.\n        Once you’re ready to cook your chicken, preheat oven to 450 degrees F (232 C). Get out a large rimmed roasting pan or cast-iron skillet (we like this baking dish). If adding veggies (optional) add carrots and potatoes to the pan. Drizzle with a bit of oil and season well with salt and pepper. Then toss to combine.\n        Arrange the veggies around the perimeter of the dish, then add the chicken (breast side up) in the center (if not baking with veggies, just place chicken in center of pan).\n        Bake for 45 minutes to 1 hour 15 minutes (UNCOVERED) or until the exterior is crispy and golden brown and the internal temperature of the thickest part of the thigh reads 165 F (74 C). I also like to measure the breast temperature to ensure it’s done in the center as well (also 165 F / 74 C). For an accurate read, be sure the thermometer is not touching bone.\n        Remove from oven and let chicken rest for about 10-15 minutes before serving. This ensures the juices redistribute to keep the chicken moist.\n        To slice the chicken, use a sharp knife to remove the wings and the thighs (option to cut the leg/drumstick from the thigh for easier serving portions). Then slice down either side of the breast bone and thinly slice the breasts into 1/4-inch serving portions. Use hands to carefully remove any other parts of meat from the bones. Lastly, if opting to make bone broth, save the bones (including the legs and wings after meat has been removed).\n        To serve, arrange the carrots and potatoes on a serving platter and top with pieces of chicken. You will likely have a generous portion of cooking juices left over in the roasting pan, which I recommend transferring to a small dish and serving on the side to add more flavor as a lazy but delicious form of 'gravy.'"], ["image_url", "https://minimalistbaker.com/wp-content/uploads/2019/10/EASY-Lemon-Herb-Roasted-Chicken-1-pan-6-ingredients-BIG-flavor-perfectly-tender-chicken-glutenfree-chicken-recipe-minimalistbaker-14.jpg"], ["likes", 0], ["created_at", "2020-05-24 04:09:55.473435"], ["updated_at", "2020-05-24 04:09:55.473435"]]
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+Started GET "/api/v1/recipes" for ::1 at 2020-05-24 00:10:38 -0400
+Processing by Api::V1::RecipesController#index as */*
+  [1m[36mRecipe Load (4.5ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/controllers/api/v1/recipes_controller.rb:8:in `index'
+Completed 200 OK in 57ms (Views: 20.5ms | ActiveRecord: 12.6ms | Allocations: 9101)
+
+
+Started GET "/api/v1/recipes" for ::1 at 2020-05-24 00:51:13 -0400
+Processing by Api::V1::RecipesController#index as */*
+  [1m[36mRecipe Load (5.1ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/controllers/api/v1/recipes_controller.rb:8:in `index'
+Completed 200 OK in 124ms (Views: 29.6ms | ActiveRecord: 75.4ms | Allocations: 9099)
+
+
+Started GET "/api/v1/recipes" for ::1 at 2020-05-24 00:52:50 -0400
+Processing by Api::V1::RecipesController#index as */*
+  [1m[36mRecipe Load (29.5ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/controllers/api/v1/recipes_controller.rb:8:in `index'
+Completed 200 OK in 34ms (Views: 4.2ms | ActiveRecord: 29.5ms | Allocations: 1344)
+
+
+Started GET "/api/v1/recipes" for ::1 at 2020-05-24 00:55:10 -0400
+Processing by Api::V1::RecipesController#index as */*
+  [1m[36mRecipe Load (25.8ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/controllers/api/v1/recipes_controller.rb:8:in `index'
+Completed 200 OK in 30ms (Views: 4.0ms | ActiveRecord: 25.8ms | Allocations: 1341)
+
+
+Started GET "/api/v1/recipes" for ::1 at 2020-05-24 00:56:04 -0400
+Processing by Api::V1::RecipesController#index as */*
+  [1m[36mRecipe Load (3.4ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/controllers/api/v1/recipes_controller.rb:8:in `index'
+Completed 200 OK in 7ms (Views: 3.3ms | ActiveRecord: 3.4ms | Allocations: 1341)
+
+
+Started GET "/api/v1/recipes" for ::1 at 2020-05-24 00:56:14 -0400
+Processing by Api::V1::RecipesController#index as */*
+  [1m[36mRecipe Load (3.4ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/controllers/api/v1/recipes_controller.rb:8:in `index'
+Completed 200 OK in 10ms (Views: 5.8ms | ActiveRecord: 3.4ms | Allocations: 1341)
+
+
+Started GET "/api/v1/recipes" for ::1 at 2020-05-24 00:56:43 -0400
+Processing by Api::V1::RecipesController#index as */*
+  [1m[36mRecipe Load (1.9ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/controllers/api/v1/recipes_controller.rb:8:in `index'
+Completed 200 OK in 19ms (Views: 14.5ms | ActiveRecord: 1.9ms | Allocations: 1323)
+
+
+Started GET "/api/v1/recipes" for ::1 at 2020-05-24 00:56:44 -0400
+Processing by Api::V1::RecipesController#index as */*
+  [1m[36mRecipe Load (1.0ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/controllers/api/v1/recipes_controller.rb:8:in `index'
+Completed 200 OK in 6ms (Views: 4.5ms | ActiveRecord: 1.0ms | Allocations: 1323)
+
+
+Started GET "/api/v1/recipes" for ::1 at 2020-05-24 00:56:45 -0400
+Processing by Api::V1::RecipesController#index as */*
+  [1m[36mRecipe Load (1.5ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/controllers/api/v1/recipes_controller.rb:8:in `index'
+Completed 200 OK in 9ms (Views: 6.6ms | ActiveRecord: 1.5ms | Allocations: 1323)
+
+
+Started GET "/api/v1/recipes" for ::1 at 2020-05-24 00:56:46 -0400
+Processing by Api::V1::RecipesController#index as */*
+  [1m[36mRecipe Load (2.1ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/controllers/api/v1/recipes_controller.rb:8:in `index'
+Completed 200 OK in 10ms (Views: 7.2ms | ActiveRecord: 2.1ms | Allocations: 1323)
+
+
+Started GET "/api/v1/recipes" for ::1 at 2020-05-24 00:56:47 -0400
+Processing by Api::V1::RecipesController#index as */*
+  [1m[36mRecipe Load (0.5ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/controllers/api/v1/recipes_controller.rb:8:in `index'
+Completed 200 OK in 5ms (Views: 4.1ms | ActiveRecord: 0.5ms | Allocations: 1323)
+
+
+Started GET "/api/v1/recipes" for ::1 at 2020-05-24 00:56:48 -0400
+Processing by Api::V1::RecipesController#index as */*
+  [1m[36mRecipe Load (5.9ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/controllers/api/v1/recipes_controller.rb:8:in `index'
+Completed 200 OK in 10ms (Views: 3.9ms | ActiveRecord: 5.9ms | Allocations: 1323)
+
+
+Started GET "/api/v1/recipes" for ::1 at 2020-05-24 00:56:49 -0400
+Processing by Api::V1::RecipesController#index as */*
+  [1m[36mRecipe Load (0.7ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/controllers/api/v1/recipes_controller.rb:8:in `index'
+Completed 200 OK in 5ms (Views: 3.9ms | ActiveRecord: 0.7ms | Allocations: 1323)
+
+
+Started GET "/api/v1/recipes" for ::1 at 2020-05-24 00:56:50 -0400
+Processing by Api::V1::RecipesController#index as */*
+  [1m[36mRecipe Load (0.5ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/controllers/api/v1/recipes_controller.rb:8:in `index'
+Completed 200 OK in 8ms (Views: 7.0ms | ActiveRecord: 0.5ms | Allocations: 1323)
+
+
+Started GET "/index" for ::1 at 2020-05-24 01:24:21 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/index"):
+  
+actionpack (6.0.3.1) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.1) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.1) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.1) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.1) lib/rails/rack/logger.rb:26:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.2) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.2) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+rack-cors (1.1.1) lib/rack/cors.rb:100:in `call'
+railties (6.0.3.1) lib/rails/engine.rb:527:in `call'
+puma (4.3.5) lib/puma/configuration.rb:228:in `call'
+puma (4.3.5) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.5) lib/puma/server.rb:472:in `process_client'
+puma (4.3.5) lib/puma/server.rb:328:in `block in run'
+puma (4.3.5) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/api/v1/recipes/index" for ::1 at 2020-05-24 01:24:43 -0400
+Processing by Api::V1::RecipesController#show as HTML
+  Parameters: {"id"=>"index"}
+  [1m[36mRecipe Load (8.3ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes" WHERE "recipes"."id" = $1 LIMIT $2[0m  [["id", nil], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/recipes_controller.rb:12:in `show'
+Completed 404 Not Found in 20ms (ActiveRecord: 8.6ms | Allocations: 1219)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Recipe with 'id'=index):
+  
+app/controllers/api/v1/recipes_controller.rb:12:in `show'
+Started GET "/api/v1/recipes" for ::1 at 2020-05-24 01:24:50 -0400
+Processing by Api::V1::RecipesController#index as HTML
+  [1m[36mRecipe Load (6.7ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/controllers/api/v1/recipes_controller.rb:8:in `index'
+Completed 200 OK in 19ms (Views: 11.6ms | ActiveRecord: 6.7ms | Allocations: 1326)
+
+
+Started GET "/recipes" for ::1 at 2020-05-24 01:25:05 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/recipes"):
+  
+actionpack (6.0.3.1) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.1) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.1) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.1) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.1) lib/rails/rack/logger.rb:26:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.2) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.2) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+rack-cors (1.1.1) lib/rack/cors.rb:100:in `call'
+railties (6.0.3.1) lib/rails/engine.rb:527:in `call'
+puma (4.3.5) lib/puma/configuration.rb:228:in `call'
+puma (4.3.5) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.5) lib/puma/server.rb:472:in `process_client'
+puma (4.3.5) lib/puma/server.rb:328:in `block in run'
+puma (4.3.5) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
