@@ -52,3 +52,27 @@ roastedchicken = Recipe.create(name: "Roasted Chicken",
         To serve, arrange the carrots and potatoes on a serving platter and top with pieces of chicken. You will likely have a generous portion of cooking juices left over in the roasting pan, which I recommend transferring to a small dish and serving on the side to add more flavor as a lazy but delicious form of 'gravy.'",
         image_url: "https://minimalistbaker.com/wp-content/uploads/2019/10/EASY-Lemon-Herb-Roasted-Chicken-1-pan-6-ingredients-BIG-flavor-perfectly-tender-chicken-glutenfree-chicken-recipe-minimalistbaker-14.jpg",
         likes: 0)
+
+Diet.destroy_all
+
+vegetarian = Diet.create(name: "vegetarian")
+gluten_free = Diet.create(name: "gluten-free")
+paleo = Diet.create(name: "Paleo")
+dairy_free = Diet.create(name: "dairy-free")
+
+RecipeDiet.destroy_all
+
+RecipeDiet.create(recipe_id: avotoast.id, diet_id: vegetarian.id)
+RecipeDiet.create(recipe_id: avotoast.id, diet_id: dairy_free.id)
+RecipeDiet.create(recipe_id: kalesalad.id, diet_id: vegetarian.id)
+RecipeDiet.create(recipe_id: kalesalad.id, diet_id: dairy_free.id)
+RecipeDiet.create(recipe_id: kalesalad.id, diet_id: gluten_free.id)
+RecipeDiet.create(recipe_id: kalesalad.id, diet_id: paleo.id)
+RecipeDiet.create(recipe_id: roastedchicken.id, diet_id: paleo.id)
+RecipeDiet.create(recipe_id: roastedchicken.id, diet_id: gluten_free.id)
+RecipeDiet.create(recipe_id: roastedchicken.id, diet_id: dairy_free.id)
+
+
+
+
+
