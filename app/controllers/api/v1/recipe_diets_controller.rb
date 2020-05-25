@@ -3,7 +3,7 @@ class Api::V1::RecipeDietsController < ApplicationController
 
     def index 
         recipediets = RecipeDiet.all 
-        render json: recipediets
+        render json: recipediets, include: [:recipe, :diet]
     end 
 
     def show
