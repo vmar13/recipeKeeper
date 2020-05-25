@@ -62,15 +62,15 @@ dairy_free = Diet.create(name: "dairy-free")
 
 RecipeDiet.destroy_all
 
-RecipeDiet.create(recipe_id: avotoast.id, diet_id: vegetarian.id)
-RecipeDiet.create(recipe_id: avotoast.id, diet_id: dairy_free.id)
-RecipeDiet.create(recipe_id: kalesalad.id, diet_id: vegetarian.id)
-RecipeDiet.create(recipe_id: kalesalad.id, diet_id: dairy_free.id)
-RecipeDiet.create(recipe_id: kalesalad.id, diet_id: gluten_free.id)
-RecipeDiet.create(recipe_id: kalesalad.id, diet_id: paleo.id)
-RecipeDiet.create(recipe_id: roastedchicken.id, diet_id: paleo.id)
-RecipeDiet.create(recipe_id: roastedchicken.id, diet_id: gluten_free.id)
-RecipeDiet.create(recipe_id: roastedchicken.id, diet_id: dairy_free.id)
+RecipeDiet.create(recipe: avotoast, diet: vegetarian)
+RecipeDiet.create(recipe: avotoast, diet: dairy_free)
+RecipeDiet.create(recipe: kalesalad, diet: vegetarian)
+RecipeDiet.create(recipe: kalesalad, diet: dairy_free)
+RecipeDiet.create(recipe: kalesalad, diet: gluten_free)
+RecipeDiet.create(recipe: kalesalad, diet: paleo)
+RecipeDiet.create(recipe: roastedchicken, diet: paleo)
+RecipeDiet.create(recipe: roastedchicken, diet: gluten_free)
+RecipeDiet.create(recipe: roastedchicken, diet: dairy_free)
 
 
 
