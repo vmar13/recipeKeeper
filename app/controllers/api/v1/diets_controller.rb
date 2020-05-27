@@ -7,6 +7,8 @@ class Api::V1::DietsController < ApplicationController
 
     def show
         diet = Diet.find(params[:id])
+        render json: diet, include: [:recipes]
+    
     end 
 
     def newshow
