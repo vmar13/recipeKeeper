@@ -21280,3 +21280,1002 @@ Completed 200 OK in 7ms (Views: 4.8ms | ActiveRecord: 1.6ms | Allocations: 2665)
 >>>>>>> Vanessa
 
 
+Started GET "/api/v1/recipes" for ::1 at 2020-05-29 00:57:00 -0400
+Started GET "/api/v1/diets" for ::1 at 2020-05-29 00:57:00 -0400
+  [1m[35m (1.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Api::V1::DietsController#index as */*
+  [1m[35m (31.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mDiet Load (4.8ms)[0m  [1m[34mSELECT "diets".* FROM "diets"[0m
+  ↳ app/controllers/api/v1/diets_controller.rb:5:in `index'
+Processing by Api::V1::RecipesController#index as */*
+  [1m[36mRecipe Load (61.0ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/controllers/api/v1/recipes_controller.rb:8:in `index'
+Completed 200 OK in 176ms (Views: 44.3ms | ActiveRecord: 118.1ms | Allocations: 10056)
+
+
+Completed 200 OK in 187ms (Views: 58.7ms | ActiveRecord: 116.9ms | Allocations: 12172)
+
+
+Started GET "/api/v1/diets" for ::1 at 2020-05-29 00:59:51 -0400
+Started GET "/api/v1/recipes" for ::1 at 2020-05-29 00:59:51 -0400
+Processing by Api::V1::DietsController#index as */*
+Processing by Api::V1::RecipesController#index as */*
+  [1m[36mDiet Load (48.8ms)[0m  [1m[34mSELECT "diets".* FROM "diets"[0m
+  ↳ app/controllers/api/v1/diets_controller.rb:5:in `index'
+Completed 200 OK in 62ms (Views: 12.3ms | ActiveRecord: 48.8ms | Allocations: 1763)
+
+
+  [1m[36mRecipe Load (90.2ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/controllers/api/v1/recipes_controller.rb:8:in `index'
+Completed 200 OK in 110ms (Views: 19.5ms | ActiveRecord: 90.2ms | Allocations: 3581)
+
+
+Started GET "/api/v1/diets" for ::1 at 2020-05-29 01:00:10 -0400
+Started GET "/api/v1/recipes" for ::1 at 2020-05-29 01:00:10 -0400
+Processing by Api::V1::DietsController#index as */*
+  [1m[36mDiet Load (51.4ms)[0m  [1m[34mSELECT "diets".* FROM "diets"[0m
+  ↳ app/controllers/api/v1/diets_controller.rb:5:in `index'
+Completed 200 OK in 57ms (Views: 5.4ms | ActiveRecord: 51.4ms | Allocations: 1222)
+
+
+Processing by Api::V1::RecipesController#index as */*
+  [1m[36mRecipe Load (1.8ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/controllers/api/v1/recipes_controller.rb:8:in `index'
+Completed 200 OK in 18ms (Views: 14.1ms | ActiveRecord: 1.8ms | Allocations: 2189)
+
+
+Started GET "/api/v1/recipes" for ::1 at 2020-05-29 01:06:29 -0400
+Started GET "/api/v1/diets" for ::1 at 2020-05-29 01:06:29 -0400
+Processing by Api::V1::DietsController#index as */*
+  [1m[36mDiet Load (44.9ms)[0m  [1m[34mSELECT "diets".* FROM "diets"[0m
+  ↳ app/controllers/api/v1/diets_controller.rb:5:in `index'
+Completed 200 OK in 55ms (Views: 9.7ms | ActiveRecord: 44.9ms | Allocations: 1304)
+
+
+Processing by Api::V1::RecipesController#index as */*
+  [1m[36mRecipe Load (33.4ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/controllers/api/v1/recipes_controller.rb:8:in `index'
+Completed 200 OK in 81ms (Views: 46.5ms | ActiveRecord: 33.4ms | Allocations: 2262)
+
+
+Started GET "/api/v1/recipes" for ::1 at 2020-05-29 08:52:39 -0400
+Started GET "/api/v1/diets" for ::1 at 2020-05-29 08:52:39 -0400
+Processing by Api::V1::DietsController#index as */*
+Processing by Api::V1::RecipesController#index as */*
+  [1m[36mDiet Load (1.2ms)[0m  [1m[34mSELECT "diets".* FROM "diets"[0m
+  ↳ app/controllers/api/v1/diets_controller.rb:5:in `index'
+Completed 200 OK in 16ms (Views: 12.4ms | ActiveRecord: 1.2ms | Allocations: 1390)
+
+
+  [1m[36mRecipe Load (8.9ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/controllers/api/v1/recipes_controller.rb:8:in `index'
+Completed 200 OK in 22ms (Views: 12.5ms | ActiveRecord: 8.9ms | Allocations: 3668)
+
+
+Started GET "/api/v1/diets" for ::1 at 2020-05-29 08:53:07 -0400
+Started GET "/api/v1/recipes" for ::1 at 2020-05-29 08:53:07 -0400
+Processing by Api::V1::DietsController#index as */*
+Processing by Api::V1::RecipesController#index as */*
+  [1m[36mDiet Load (17.7ms)[0m  [1m[34mSELECT "diets".* FROM "diets"[0m
+  ↳ app/controllers/api/v1/diets_controller.rb:5:in `index'
+Completed 200 OK in 23ms (Views: 4.6ms | ActiveRecord: 17.7ms | Allocations: 1537)
+
+
+  [1m[36mRecipe Load (30.5ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/controllers/api/v1/recipes_controller.rb:8:in `index'
+Completed 200 OK in 40ms (Views: 9.2ms | ActiveRecord: 30.5ms | Allocations: 3555)
+
+
+Started GET "/api/v1/recipes" for ::1 at 2020-05-29 08:53:54 -0400
+Started GET "/api/v1/diets" for ::1 at 2020-05-29 08:53:54 -0400
+Processing by Api::V1::DietsController#index as */*
+  [1m[36mDiet Load (13.5ms)[0m  [1m[34mSELECT "diets".* FROM "diets"[0m
+  ↳ app/controllers/api/v1/diets_controller.rb:5:in `index'
+Completed 200 OK in 18ms (Views: 3.2ms | ActiveRecord: 13.5ms | Allocations: 1222)
+
+
+Processing by Api::V1::RecipesController#index as */*
+  [1m[36mRecipe Load (14.4ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/controllers/api/v1/recipes_controller.rb:8:in `index'
+Completed 200 OK in 24ms (Views: 9.4ms | ActiveRecord: 14.4ms | Allocations: 2171)
+
+
+Started GET "/api/v1/recipes" for ::1 at 2020-05-29 08:54:07 -0400
+Started GET "/api/v1/diets" for ::1 at 2020-05-29 08:54:07 -0400
+Processing by Api::V1::DietsController#index as */*
+Processing by Api::V1::RecipesController#index as */*
+  [1m[36mDiet Load (2.0ms)[0m  [1m[34mSELECT "diets".* FROM "diets"[0m
+  ↳ app/controllers/api/v1/diets_controller.rb:5:in `index'
+Completed 200 OK in 5ms (Views: 2.5ms | ActiveRecord: 2.0ms | Allocations: 1329)
+
+
+  [1m[36mRecipe Load (5.0ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/controllers/api/v1/recipes_controller.rb:8:in `index'
+Completed 200 OK in 11ms (Views: 5.5ms | ActiveRecord: 5.0ms | Allocations: 3525)
+
+
+Started GET "/api/v1/diets" for ::1 at 2020-05-29 08:54:08 -0400
+Started GET "/api/v1/recipes" for ::1 at 2020-05-29 08:54:08 -0400
+Processing by Api::V1::RecipesController#index as */*
+Processing by Api::V1::DietsController#index as */*
+  [1m[36mRecipe Load (8.1ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/controllers/api/v1/recipes_controller.rb:8:in `index'
+Completed 200 OK in 16ms (Views: 7.7ms | ActiveRecord: 8.1ms | Allocations: 2675)
+
+
+  [1m[36mDiet Load (10.6ms)[0m  [1m[34mSELECT "diets".* FROM "diets"[0m
+  ↳ app/controllers/api/v1/diets_controller.rb:5:in `index'
+Completed 200 OK in 15ms (Views: 4.2ms | ActiveRecord: 10.6ms | Allocations: 3525)
+
+
+Started GET "/api/v1/recipes" for ::1 at 2020-05-29 08:54:41 -0400
+Started GET "/api/v1/diets" for ::1 at 2020-05-29 08:54:41 -0400
+Processing by Api::V1::RecipesController#index as */*
+Processing by Api::V1::DietsController#index as */*
+  [1m[36mRecipe Load (7.4ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/controllers/api/v1/recipes_controller.rb:8:in `index'
+  [1m[36mDiet Load (2.6ms)[0m  [1m[34mSELECT "diets".* FROM "diets"[0m
+Completed 200 OK in 16ms (Views: 7.7ms | ActiveRecord: 7.4ms | Allocations: 2696)
+
+
+  ↳ app/controllers/api/v1/diets_controller.rb:5:in `index'
+Completed 200 OK in 15ms (Views: 11.4ms | ActiveRecord: 2.6ms | Allocations: 3472)
+
+
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mRecipe Load (0.7ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  [1m[35m (2.6ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRecipe Destroy (0.5ms)[0m  [1m[31mDELETE FROM "recipes" WHERE "recipes"."id" = $1[0m  [["id", 94]]
+  [1m[35m (2.7ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRecipe Destroy (0.3ms)[0m  [1m[31mDELETE FROM "recipes" WHERE "recipes"."id" = $1[0m  [["id", 95]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRecipe Destroy (0.3ms)[0m  [1m[31mDELETE FROM "recipes" WHERE "recipes"."id" = $1[0m  [["id", 96]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRecipe Destroy (0.3ms)[0m  [1m[31mDELETE FROM "recipes" WHERE "recipes"."id" = $1[0m  [["id", 97]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRecipe Destroy (0.3ms)[0m  [1m[31mDELETE FROM "recipes" WHERE "recipes"."id" = $1[0m  [["id", 98]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRecipe Destroy (0.3ms)[0m  [1m[31mDELETE FROM "recipes" WHERE "recipes"."id" = $1[0m  [["id", 99]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRecipe Destroy (0.3ms)[0m  [1m[31mDELETE FROM "recipes" WHERE "recipes"."id" = $1[0m  [["id", 100]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRecipe Destroy (0.3ms)[0m  [1m[31mDELETE FROM "recipes" WHERE "recipes"."id" = $1[0m  [["id", 101]]
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mDiet Load (0.6ms)[0m  [1m[34mSELECT "diets".* FROM "diets"[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mDiet Destroy (0.3ms)[0m  [1m[31mDELETE FROM "diets" WHERE "diets"."id" = $1[0m  [["id", 97]]
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mDiet Destroy (0.3ms)[0m  [1m[31mDELETE FROM "diets" WHERE "diets"."id" = $1[0m  [["id", 98]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mDiet Destroy (0.2ms)[0m  [1m[31mDELETE FROM "diets" WHERE "diets"."id" = $1[0m  [["id", 99]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mDiet Destroy (0.2ms)[0m  [1m[31mDELETE FROM "diets" WHERE "diets"."id" = $1[0m  [["id", 100]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mRecipeDiet Load (0.6ms)[0m  [1m[34mSELECT "recipe_diets".* FROM "recipe_diets"[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRecipeDiet Destroy (0.4ms)[0m  [1m[31mDELETE FROM "recipe_diets" WHERE "recipe_diets"."id" = $1[0m  [["id", 126]]
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRecipeDiet Destroy (0.3ms)[0m  [1m[31mDELETE FROM "recipe_diets" WHERE "recipe_diets"."id" = $1[0m  [["id", 127]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRecipeDiet Destroy (0.3ms)[0m  [1m[31mDELETE FROM "recipe_diets" WHERE "recipe_diets"."id" = $1[0m  [["id", 128]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRecipeDiet Destroy (0.3ms)[0m  [1m[31mDELETE FROM "recipe_diets" WHERE "recipe_diets"."id" = $1[0m  [["id", 129]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRecipeDiet Destroy (0.4ms)[0m  [1m[31mDELETE FROM "recipe_diets" WHERE "recipe_diets"."id" = $1[0m  [["id", 130]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRecipeDiet Destroy (0.4ms)[0m  [1m[31mDELETE FROM "recipe_diets" WHERE "recipe_diets"."id" = $1[0m  [["id", 131]]
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRecipeDiet Destroy (0.3ms)[0m  [1m[31mDELETE FROM "recipe_diets" WHERE "recipe_diets"."id" = $1[0m  [["id", 132]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRecipeDiet Destroy (0.3ms)[0m  [1m[31mDELETE FROM "recipe_diets" WHERE "recipe_diets"."id" = $1[0m  [["id", 133]]
+  [1m[35m (0.7ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRecipeDiet Destroy (0.3ms)[0m  [1m[31mDELETE FROM "recipe_diets" WHERE "recipe_diets"."id" = $1[0m  [["id", 134]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRecipeDiet Destroy (0.3ms)[0m  [1m[31mDELETE FROM "recipe_diets" WHERE "recipe_diets"."id" = $1[0m  [["id", 135]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRecipeDiet Destroy (0.3ms)[0m  [1m[31mDELETE FROM "recipe_diets" WHERE "recipe_diets"."id" = $1[0m  [["id", 136]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRecipeDiet Destroy (0.3ms)[0m  [1m[31mDELETE FROM "recipe_diets" WHERE "recipe_diets"."id" = $1[0m  [["id", 137]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRecipeDiet Destroy (0.3ms)[0m  [1m[31mDELETE FROM "recipe_diets" WHERE "recipe_diets"."id" = $1[0m  [["id", 138]]
+  [1m[35m (0.9ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRecipeDiet Destroy (0.3ms)[0m  [1m[31mDELETE FROM "recipe_diets" WHERE "recipe_diets"."id" = $1[0m  [["id", 139]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRecipeDiet Destroy (0.3ms)[0m  [1m[31mDELETE FROM "recipe_diets" WHERE "recipe_diets"."id" = $1[0m  [["id", 140]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRecipeDiet Destroy (0.3ms)[0m  [1m[31mDELETE FROM "recipe_diets" WHERE "recipe_diets"."id" = $1[0m  [["id", 141]]
+  [1m[35m (1.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRecipeDiet Destroy (0.4ms)[0m  [1m[31mDELETE FROM "recipe_diets" WHERE "recipe_diets"."id" = $1[0m  [["id", 142]]
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRecipeDiet Destroy (0.4ms)[0m  [1m[31mDELETE FROM "recipe_diets" WHERE "recipe_diets"."id" = $1[0m  [["id", 143]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRecipeDiet Destroy (0.3ms)[0m  [1m[31mDELETE FROM "recipe_diets" WHERE "recipe_diets"."id" = $1[0m  [["id", 144]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRecipeDiet Destroy (0.3ms)[0m  [1m[31mDELETE FROM "recipe_diets" WHERE "recipe_diets"."id" = $1[0m  [["id", 145]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRecipeDiet Destroy (0.3ms)[0m  [1m[31mDELETE FROM "recipe_diets" WHERE "recipe_diets"."id" = $1[0m  [["id", 146]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRecipeDiet Destroy (0.3ms)[0m  [1m[31mDELETE FROM "recipe_diets" WHERE "recipe_diets"."id" = $1[0m  [["id", 147]]
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRecipeDiet Destroy (0.3ms)[0m  [1m[31mDELETE FROM "recipe_diets" WHERE "recipe_diets"."id" = $1[0m  [["id", 148]]
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRecipeDiet Destroy (0.4ms)[0m  [1m[31mDELETE FROM "recipe_diets" WHERE "recipe_diets"."id" = $1[0m  [["id", 149]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRecipeDiet Destroy (0.3ms)[0m  [1m[31mDELETE FROM "recipe_diets" WHERE "recipe_diets"."id" = $1[0m  [["id", 150]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRecipe Create (0.6ms)[0m  [1m[32mINSERT INTO "recipes" ("name", "ingredients", "instructions", "image_url", "likes", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["name", "Fig Martini"], ["ingredients", "3 fresh figs - quartered, 3 tablespoons fig jam, Juice of 1 lemon, 2 tablespoons honey, 6 oz vodka, Sliced fresh figs - as optional garnish"], ["instructions", "In a cocktail shaker, muddle the figs, jam, lemon juice, and honey together until the figs are mostly broken down.\nAdd ice and the vodka and shake the mixture vigorously for a few seconds to chill and incorporate the ingredients.\nStrain into martini glasses and garnish with slices of fresh fig. Serve immediately."], ["image_url", "https://images.unsplash.com/photo-1536599424071-0b215a388ba7?ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80"], ["likes", 0], ["created_at", "2020-05-29 12:59:19.949119"], ["updated_at", "2020-05-29 12:59:19.949119"]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRecipe Create (0.3ms)[0m  [1m[32mINSERT INTO "recipes" ("name", "ingredients", "instructions", "image_url", "likes", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["name", "Banana Pudding"], ["ingredients", "4 cups Vegan Peanut Butter Pudding, 3 cups full-fat coconut milk or cream, Stevia or powdered sugar"], ["instructions", "If you haven’t already, prepare your Peanut Butter Pudding and chill (cover with plastic wrap to prevent film). Set in refrigerator.\n        If you haven’t already, prepare a double batch of coconut whipped cream, using full-fat coconut milk or coconut cream and sweetening to taste with stevia or powdered sugar. Set in refrigerator.\n        In a large mixing bowl, use a rubber spatula to gently mix together pudding and half of the coconut whipped cream.\n        In a 9x13 inch (or comparable size) pan, begin by adding a layer of vanilla wafers (reserving some wafers for the top layer). Using three of the bananas, add a layer of thinly sliced bananas on top of the vanilla wafers.\n        For the next layer, top bananas with the pudding-coconut-whip mixture. Smooth the top with a wooden spoon. Use the same method to top with the remaining coconut whipped cream.\n        Cover and place in the refrigerator to chill for at least 4-6 hours, preferably overnight. Remove from fridge and top with a layer of loosely arranged sliced bananas. Crush remaining wafers and sprinkle on top. Sprinkle with crushed peanuts (if using)."], ["image_url", "https://images.unsplash.com/photo-1515544645059-de313dd20a58?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=632&q=80"], ["likes", 0], ["created_at", "2020-05-29 12:59:19.954155"], ["updated_at", "2020-05-29 12:59:19.954155"]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRecipe Create (2.4ms)[0m  [1m[32mINSERT INTO "recipes" ("name", "ingredients", "instructions", "image_url", "likes", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["name", "Pink Grapefruit Margarita"], ["ingredients", "1 lime, cut in wedges - optional, Kosher salt - optional, 1 cup ruby red grapefruit juice, 1/2 cup freshly squeezed lime juice (4 limes), 1 cup orange liqueur, 2 cups ice, 1 cup white tequila"], ["instructions", "If you like a salt rim on the glasses, rub the lime around the edge of the glass and then dip the rim of each glass lightly in a plate of kosher salt. Set aside to dry.\n        Combine the grapefruit juice, lime juice, orange liqueur, and ice in a blender and puree until smooth. Pour into a large pitcher and stir in the tequila. If youre not serving the margaritas in salted glasses, stir 1/4 teaspoon of salt into the pitcher of margaritas. Believe me, it will make a difference!\n        Serve ice cold."], ["image_url", "https://images.unsplash.com/photo-1486428263684-28ec9e4f2584?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80"], ["likes", 0], ["created_at", "2020-05-29 12:59:19.958531"], ["updated_at", "2020-05-29 12:59:19.958531"]]
+  [1m[35m (0.8ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRecipe Create (0.3ms)[0m  [1m[32mINSERT INTO "recipes" ("name", "ingredients", "instructions", "image_url", "likes", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["name", "Tumeric Cauliflower Soup"], ["ingredients", "1 large cauliflower, 2 tbsp olive oil, ½ tsp cinnamon, ½ tsp cumin, ½ tsp coriander, 2 tbsp harissa paste - plus extra drizzle, 1l hot vegetable or chicken stock, 50g toasted flaked almond - plus extra to serve"], ["instructions", "Cut the cauliflower into small florets. Fry olive oil, ground cinnamon, cumin and coriander and harissa paste for 2 mins in a large pan. Add the cauliflower, stock and almonds. Cover and cook for 20 mins until the cauliflower is tender. Blend soup until smooth, then serve with an extra drizzle of harissa and a sprinkle of toasted almonds."], ["image_url", "https://images.unsplash.com/photo-1505253668822-42074d58a7c6?ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80"], ["likes", 0], ["created_at", "2020-05-29 12:59:19.965658"], ["updated_at", "2020-05-29 12:59:19.965658"]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRecipe Create (0.3ms)[0m  [1m[32mINSERT INTO "recipes" ("name", "ingredients", "instructions", "image_url", "likes", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["name", "Avocado Toast"], ["ingredients", "2 slices bread, 1/2 – 3/4 medium ripe avocado, 1-2 Tbsp vegan parmesan, 1 pinch red pepper flake"], ["instructions", "Toast bread in the oven or toaster. Top with ripe avocado and use a fork to smash. Top with vegan parmesan cheese and (optional) red pepper flake. Eat, repeat, enjoy!"], ["image_url", "https://images.unsplash.com/photo-1505575156881-dd15ae275636?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=676&q=80"], ["likes", 0], ["created_at", "2020-05-29 12:59:19.970067"], ["updated_at", "2020-05-29 12:59:19.970067"]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRecipe Create (0.3ms)[0m  [1m[32mINSERT INTO "recipes" ("name", "ingredients", "instructions", "image_url", "likes", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["name", "Grilled Corn Tacos"], ["ingredients", "Handful of whole green beans, about 1 cup\n3 ears of fresh corn, ¼ cup chopped grilled onion, ½ cup halved or quartered cherry tomatoes, teaspoon extra-virgin olive oil, Juice of 1 lime, ½ cup chopped cilantro, Sea salt and freshly ground black pepper, 8 to 10 flour tortillas*, ½ cup crumbled feta cheese, 1 serrano pepper (sliced - optional)"], ["instructions", "Prep the green beans by blanching them in boiling water for 3 minutes, then transfer to a bowl of ice water. Once cool, transfer to a towel to dry and set aside.\nMake the Tomatillo salsa and chill until ready to use. Make the filling. Heat a grill to medium heat and grill the blanched green beans and the whole ears of corn until charred on all sides.\nChop the green beans into 1” pieces and add them to a large bowl with the onion and tomatoes. Slice the kernels off the corn and add those to the bowl as well. Add the olive oil, lime juice, cilantro, pinches of salt and pepper, and a few spoonfuls of the tomatillo salsa and toss. Season to taste.\nGrill or warm the tortillas. Assemble the tacos with the corn taco filling, feta cheese, and serrano slices, if desired. Top with salsa and serve the extra on the side."], ["image_url", "https://images.unsplash.com/photo-1511690078903-71dc5a49f5e3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=700&q=80"], ["likes", 0], ["created_at", "2020-05-29 12:59:19.974336"], ["updated_at", "2020-05-29 12:59:19.974336"]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRecipe Create (1.0ms)[0m  [1m[32mINSERT INTO "recipes" ("name", "ingredients", "instructions", "image_url", "likes", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["name", "Massaged Kale Salad"], ["ingredients", "2 large bundles curly kale, 1 Tbsp lemon juice, 1 Tbsp extra virgin olive oil, 1 healthy pinch sea salt. DRESSING: 1/3 cup tahini, 3 Tbsp lemon juice, 1-2 Tbsp maple syrup, 1 pinch sea salt, Water to thin"], ["instructions", "Once you’ve rinsed and dried your kale, run your hand along the stem to remove the green leaves from the stalky stem. You don’t have to remove the stem completely, but be sure to compost or reserve the larger bottom stalks for DIY vegetable broth. Stack your stalks of kale on top of each other and finely chop. No need to mince, just cut into manageable, bite-size pieces. Add kale to a large mixing / serving bowl and top with lemon juice and extra virgin olive oil. Then massage with clean hands for about 3 minutes. The point of massaging is to infuse the kale with the lemon juice and oil, and also to break down some of the tough, fibrous characteristics of kale. This makes it easier to chew and digest, and makes for a more tender salad. Season with salt, massage/toss once more, then set aside.\n        Next prepare the dressing by adding tahini, lemon juice, maple syrup, and salt (optional) to a medium mixing bowl. Whisk to combine. Then slowly add water until creamy and pourable. The mixture may seize up and thicken at first, but continue adding water a little at a time, whisking until creamy and smooth. Taste and adjust flavor as needed, adding more lemon juice for acidity, maple syrup for sweetness, or salt to taste. Set aside. (Store leftover dressing in the refrigerator up to 5-7 days — sometimes longer.)\n        To serve, top with desired amount of dressing and crispy chickpeas (optional), toss, and serve. Leftovers keep covered in the refrigerator up to 3-4 days (not freezer friendly)."], ["image_url", "https://images.unsplash.com/photo-1515543237350-b3eea1ec8082?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=632&q=80"], ["likes", 0], ["created_at", "2020-05-29 12:59:19.978587"], ["updated_at", "2020-05-29 12:59:19.978587"]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRecipe Create (1.1ms)[0m  [1m[32mINSERT INTO "recipes" ("name", "ingredients", "instructions", "image_url", "likes", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["name", "Roasted Chicken"], ["ingredients", "1 3-4 pound whole chicken, 2 Tbsp melted butter (Miyoko’s or Earth Balance for dairy-free, 3/4-1 Tbsp sea salt, 1-2 tsp black pepper, 1 small lemon, rinsed and quartered, 4 sprigs fresh rosemary (or sub thyme)"], ["instructions", "Set chicken on a clean plate then wash hands with hot soapy water. Melt butter and drizzle over the skin of the chicken and brush to distribute evenly. Season the exterior and interior cavity of the chicken with salt and pepper (as the recipe is written, about 3/4-1 Tbsp sea salt and 1-2 tsp black pepper). This sounds like a lot of salt, but there should be a generous layer of seasoning on the chicken so it flavors the meat well. (For a roughly 4 lb. chicken, we used about 1 Tbsp salt and 2 tsp black pepper total.) Insert the lemon and fresh rosemary into the cavity — this infuses more flavor and also makes for a more flavorful broth (if making broth afterward). Set the chicken in the fridge uncovered (this allows the chicken to dry out a bit, which helps it crisp more when roasting). Wait 24-36 hours (ideally) or at least 8-10 hours to cook. At this time, be sure to wash hands with hot soapy water again and clean all surfaces well to avoid spreading bacteria. Once you’re ready to cook your chicken, preheat oven to 450 degrees F (232 C). Get out a large rimmed roasting pan or cast-iron skillet (we like this baking dish). If adding veggies (optional) add carrots and potatoes to the pan. Drizzle with a bit of oil and season well with salt and pepper. Then toss to combine. Arrange the veggies around the perimeter of the dish, then add the chicken (breast side up) in the center (if not baking with veggies, just place chicken in center of pan). Bake for 45 minutes to 1 hour 15 minutes (UNCOVERED) or until the exterior is crispy and golden brown and the internal temperature of the thickest part of the thigh reads 165 F (74 C). I also like to measure the breast temperature to ensure it’s done in the center as well (also 165 F / 74 C). For an accurate read, be sure the thermometer is not touching bone. Remove from oven and let chicken rest for about 10-15 minutes before serving. This ensures the juices redistribute to keep the chicken moist. To slice the chicken, use a sharp knife to remove the wings and the thighs (option to cut the leg/drumstick from the thigh for easier serving portions). Then slice down either side of the breast bone and thinly slice the breasts into 1/4-inch serving portions. Use hands to carefully remove any other parts of meat from the bones. Lastly, if opting to make bone broth, save the bones (including the legs and wings after meat has been removed).\n        To serve, arrange the carrots and potatoes on a serving platter and top with pieces of chicken. You will likely have a generous portion of cooking juices left over in the roasting pan, which I recommend transferring to a small dish and serving on the side to add more flavor as a lazy but delicious form of 'gravy.'"], ["image_url", "https://minimalistbaker.com/wp-content/uploads/2019/10/EASY-Lemon-Herb-Roasted-Chicken-1-pan-6-ingredients-BIG-flavor-perfectly-tender-chicken-glutenfree-chicken-recipe-minimalistbaker-14.jpg"], ["likes", 0], ["created_at", "2020-05-29 12:59:19.983625"], ["updated_at", "2020-05-29 12:59:19.983625"]]
+  [1m[35m (0.6ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mDiet Create (0.5ms)[0m  [1m[32mINSERT INTO "diets" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "vegetarian"], ["created_at", "2020-05-29 12:59:19.989604"], ["updated_at", "2020-05-29 12:59:19.989604"]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mDiet Create (0.3ms)[0m  [1m[32mINSERT INTO "diets" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "gluten-free"], ["created_at", "2020-05-29 12:59:19.994018"], ["updated_at", "2020-05-29 12:59:19.994018"]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mDiet Create (0.3ms)[0m  [1m[32mINSERT INTO "diets" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "Paleo"], ["created_at", "2020-05-29 12:59:19.998273"], ["updated_at", "2020-05-29 12:59:19.998273"]]
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mDiet Create (0.4ms)[0m  [1m[32mINSERT INTO "diets" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "dairy-free"], ["created_at", "2020-05-29 12:59:20.002572"], ["updated_at", "2020-05-29 12:59:20.002572"]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRecipeDiet Create (0.5ms)[0m  [1m[32mINSERT INTO "recipe_diets" ("recipe_id", "diet_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["recipe_id", 106], ["diet_id", 101], ["created_at", "2020-05-29 12:59:20.023823"], ["updated_at", "2020-05-29 12:59:20.023823"]]
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRecipeDiet Create (0.3ms)[0m  [1m[32mINSERT INTO "recipe_diets" ("recipe_id", "diet_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["recipe_id", 106], ["diet_id", 104], ["created_at", "2020-05-29 12:59:20.029209"], ["updated_at", "2020-05-29 12:59:20.029209"]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRecipeDiet Create (0.3ms)[0m  [1m[32mINSERT INTO "recipe_diets" ("recipe_id", "diet_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["recipe_id", 108], ["diet_id", 101], ["created_at", "2020-05-29 12:59:20.033835"], ["updated_at", "2020-05-29 12:59:20.033835"]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRecipeDiet Create (0.3ms)[0m  [1m[32mINSERT INTO "recipe_diets" ("recipe_id", "diet_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["recipe_id", 108], ["diet_id", 104], ["created_at", "2020-05-29 12:59:20.038292"], ["updated_at", "2020-05-29 12:59:20.038292"]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRecipeDiet Create (0.3ms)[0m  [1m[32mINSERT INTO "recipe_diets" ("recipe_id", "diet_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["recipe_id", 108], ["diet_id", 102], ["created_at", "2020-05-29 12:59:20.042679"], ["updated_at", "2020-05-29 12:59:20.042679"]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRecipeDiet Create (0.3ms)[0m  [1m[32mINSERT INTO "recipe_diets" ("recipe_id", "diet_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["recipe_id", 108], ["diet_id", 103], ["created_at", "2020-05-29 12:59:20.046969"], ["updated_at", "2020-05-29 12:59:20.046969"]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRecipeDiet Create (0.3ms)[0m  [1m[32mINSERT INTO "recipe_diets" ("recipe_id", "diet_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["recipe_id", 109], ["diet_id", 103], ["created_at", "2020-05-29 12:59:20.051263"], ["updated_at", "2020-05-29 12:59:20.051263"]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRecipeDiet Create (0.4ms)[0m  [1m[32mINSERT INTO "recipe_diets" ("recipe_id", "diet_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["recipe_id", 109], ["diet_id", 102], ["created_at", "2020-05-29 12:59:20.055528"], ["updated_at", "2020-05-29 12:59:20.055528"]]
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRecipeDiet Create (0.3ms)[0m  [1m[32mINSERT INTO "recipe_diets" ("recipe_id", "diet_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["recipe_id", 109], ["diet_id", 104], ["created_at", "2020-05-29 12:59:20.060071"], ["updated_at", "2020-05-29 12:59:20.060071"]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRecipeDiet Create (0.3ms)[0m  [1m[32mINSERT INTO "recipe_diets" ("recipe_id", "diet_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["recipe_id", 103], ["diet_id", 101], ["created_at", "2020-05-29 12:59:20.065773"], ["updated_at", "2020-05-29 12:59:20.065773"]]
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRecipeDiet Create (3.5ms)[0m  [1m[32mINSERT INTO "recipe_diets" ("recipe_id", "diet_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["recipe_id", 103], ["diet_id", 104], ["created_at", "2020-05-29 12:59:20.070345"], ["updated_at", "2020-05-29 12:59:20.070345"]]
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRecipeDiet Create (0.3ms)[0m  [1m[32mINSERT INTO "recipe_diets" ("recipe_id", "diet_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["recipe_id", 104], ["diet_id", 101], ["created_at", "2020-05-29 12:59:20.078207"], ["updated_at", "2020-05-29 12:59:20.078207"]]
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRecipeDiet Create (0.3ms)[0m  [1m[32mINSERT INTO "recipe_diets" ("recipe_id", "diet_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["recipe_id", 104], ["diet_id", 102], ["created_at", "2020-05-29 12:59:20.082632"], ["updated_at", "2020-05-29 12:59:20.082632"]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRecipeDiet Create (0.3ms)[0m  [1m[32mINSERT INTO "recipe_diets" ("recipe_id", "diet_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["recipe_id", 104], ["diet_id", 104], ["created_at", "2020-05-29 12:59:20.086773"], ["updated_at", "2020-05-29 12:59:20.086773"]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRecipeDiet Create (0.3ms)[0m  [1m[32mINSERT INTO "recipe_diets" ("recipe_id", "diet_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["recipe_id", 102], ["diet_id", 104], ["created_at", "2020-05-29 12:59:20.090990"], ["updated_at", "2020-05-29 12:59:20.090990"]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRecipeDiet Create (0.3ms)[0m  [1m[32mINSERT INTO "recipe_diets" ("recipe_id", "diet_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["recipe_id", 102], ["diet_id", 102], ["created_at", "2020-05-29 12:59:20.104024"], ["updated_at", "2020-05-29 12:59:20.104024"]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRecipeDiet Create (0.3ms)[0m  [1m[32mINSERT INTO "recipe_diets" ("recipe_id", "diet_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["recipe_id", 102], ["diet_id", 101], ["created_at", "2020-05-29 12:59:20.108885"], ["updated_at", "2020-05-29 12:59:20.108885"]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRecipeDiet Create (0.3ms)[0m  [1m[32mINSERT INTO "recipe_diets" ("recipe_id", "diet_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["recipe_id", 102], ["diet_id", 103], ["created_at", "2020-05-29 12:59:20.113361"], ["updated_at", "2020-05-29 12:59:20.113361"]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRecipeDiet Create (0.3ms)[0m  [1m[32mINSERT INTO "recipe_diets" ("recipe_id", "diet_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["recipe_id", 107], ["diet_id", 104], ["created_at", "2020-05-29 12:59:20.117708"], ["updated_at", "2020-05-29 12:59:20.117708"]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRecipeDiet Create (0.3ms)[0m  [1m[32mINSERT INTO "recipe_diets" ("recipe_id", "diet_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["recipe_id", 107], ["diet_id", 101], ["created_at", "2020-05-29 12:59:20.121998"], ["updated_at", "2020-05-29 12:59:20.121998"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRecipeDiet Create (0.3ms)[0m  [1m[32mINSERT INTO "recipe_diets" ("recipe_id", "diet_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["recipe_id", 107], ["diet_id", 102], ["created_at", "2020-05-29 12:59:20.126072"], ["updated_at", "2020-05-29 12:59:20.126072"]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRecipeDiet Create (0.3ms)[0m  [1m[32mINSERT INTO "recipe_diets" ("recipe_id", "diet_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["recipe_id", 105], ["diet_id", 102], ["created_at", "2020-05-29 12:59:20.130220"], ["updated_at", "2020-05-29 12:59:20.130220"]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRecipeDiet Create (0.3ms)[0m  [1m[32mINSERT INTO "recipe_diets" ("recipe_id", "diet_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["recipe_id", 105], ["diet_id", 104], ["created_at", "2020-05-29 12:59:20.134333"], ["updated_at", "2020-05-29 12:59:20.134333"]]
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRecipeDiet Create (0.3ms)[0m  [1m[32mINSERT INTO "recipe_diets" ("recipe_id", "diet_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["recipe_id", 105], ["diet_id", 103], ["created_at", "2020-05-29 12:59:20.138392"], ["updated_at", "2020-05-29 12:59:20.138392"]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRecipeDiet Create (0.3ms)[0m  [1m[32mINSERT INTO "recipe_diets" ("recipe_id", "diet_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["recipe_id", 105], ["diet_id", 101], ["created_at", "2020-05-29 12:59:20.142558"], ["updated_at", "2020-05-29 12:59:20.142558"]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+Started GET "/api/v1/recipes" for ::1 at 2020-05-29 08:59:23 -0400
+Started GET "/api/v1/diets" for ::1 at 2020-05-29 08:59:23 -0400
+Processing by Api::V1::RecipesController#index as */*
+Processing by Api::V1::DietsController#index as */*
+  [1m[36mRecipe Load (2.6ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/controllers/api/v1/recipes_controller.rb:8:in `index'
+Completed 200 OK in 10ms (Views: 5.9ms | ActiveRecord: 2.6ms | Allocations: 2558)
+
+
+  [1m[36mDiet Load (63.0ms)[0m  [1m[34mSELECT "diets".* FROM "diets"[0m
+  ↳ app/controllers/api/v1/diets_controller.rb:5:in `index'
+Completed 200 OK in 68ms (Views: 4.2ms | ActiveRecord: 63.0ms | Allocations: 3530)
+
+
+Started GET "/api/v1/recipes" for ::1 at 2020-05-29 09:01:20 -0400
+Started GET "/api/v1/diets" for ::1 at 2020-05-29 09:01:20 -0400
+Processing by Api::V1::RecipesController#index as */*
+Processing by Api::V1::DietsController#index as */*
+  [1m[36mRecipe Load (3.1ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/controllers/api/v1/recipes_controller.rb:8:in `index'
+Completed 200 OK in 10ms (Views: 6.3ms | ActiveRecord: 3.1ms | Allocations: 2282)
+
+
+  [1m[36mDiet Load (132.8ms)[0m  [1m[34mSELECT "diets".* FROM "diets"[0m
+  ↳ app/controllers/api/v1/diets_controller.rb:5:in `index'
+Completed 200 OK in 137ms (Views: 3.4ms | ActiveRecord: 132.8ms | Allocations: 3526)
+
+
+Started GET "/api/v1/recipes" for ::1 at 2020-05-29 09:01:43 -0400
+Started GET "/api/v1/diets" for ::1 at 2020-05-29 09:01:43 -0400
+Processing by Api::V1::DietsController#index as */*
+Processing by Api::V1::RecipesController#index as */*
+  [1m[36mRecipe Load (27.5ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/controllers/api/v1/recipes_controller.rb:8:in `index'
+Completed 200 OK in 34ms (Views: 5.6ms | ActiveRecord: 27.5ms | Allocations: 2171)
+
+
+  [1m[36mDiet Load (41.3ms)[0m  [1m[34mSELECT "diets".* FROM "diets"[0m
+  ↳ app/controllers/api/v1/diets_controller.rb:5:in `index'
+Completed 200 OK in 50ms (Views: 7.9ms | ActiveRecord: 41.3ms | Allocations: 4029)
+
+
+Started GET "/api/v1/recipes" for ::1 at 2020-05-29 09:02:29 -0400
+Started GET "/api/v1/diets" for ::1 at 2020-05-29 09:02:29 -0400
+Processing by Api::V1::RecipesController#index as */*
+Processing by Api::V1::DietsController#index as */*
+  [1m[36mDiet Load (1.4ms)[0m  [1m[34mSELECT "diets".* FROM "diets"[0m
+  ↳ app/controllers/api/v1/diets_controller.rb:5:in `index'
+Completed 200 OK in 4ms (Views: 2.1ms | ActiveRecord: 1.4ms | Allocations: 1222)
+
+
+  [1m[36mRecipe Load (5.6ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/controllers/api/v1/recipes_controller.rb:8:in `index'
+Completed 200 OK in 11ms (Views: 4.7ms | ActiveRecord: 5.6ms | Allocations: 3632)
+
+
+Started GET "/api/v1/recipes" for ::1 at 2020-05-29 09:02:55 -0400
+Started GET "/api/v1/diets" for ::1 at 2020-05-29 09:02:55 -0400
+Processing by Api::V1::RecipesController#index as */*
+Processing by Api::V1::DietsController#index as */*
+  [1m[36mDiet Load (1.6ms)[0m  [1m[34mSELECT "diets".* FROM "diets"[0m
+  ↳ app/controllers/api/v1/diets_controller.rb:5:in `index'
+Completed 200 OK in 6ms (Views: 3.7ms | ActiveRecord: 1.6ms | Allocations: 1222)
+
+
+  [1m[36mRecipe Load (15.1ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/controllers/api/v1/recipes_controller.rb:8:in `index'
+Completed 200 OK in 21ms (Views: 5.4ms | ActiveRecord: 15.1ms | Allocations: 3636)
+
+
+Started GET "/api/v1/recipes" for ::1 at 2020-05-29 09:03:21 -0400
+Started GET "/api/v1/diets" for ::1 at 2020-05-29 09:03:21 -0400
+Processing by Api::V1::DietsController#index as */*
+  [1m[36mDiet Load (1.1ms)[0m  [1m[34mSELECT "diets".* FROM "diets"[0m
+  ↳ app/controllers/api/v1/diets_controller.rb:5:in `index'
+Processing by Api::V1::RecipesController#index as */*
+Completed 200 OK in 13ms (Views: 11.6ms | ActiveRecord: 1.1ms | Allocations: 1726)
+
+
+  [1m[36mRecipe Load (25.8ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/controllers/api/v1/recipes_controller.rb:8:in `index'
+Completed 200 OK in 95ms (Views: 68.8ms | ActiveRecord: 25.8ms | Allocations: 2820)
+
+
+Started GET "/api/v1/recipes" for ::1 at 2020-05-29 09:07:52 -0400
+Started GET "/api/v1/diets" for ::1 at 2020-05-29 09:07:52 -0400
+Processing by Api::V1::RecipesController#index as */*
+Processing by Api::V1::DietsController#index as */*
+  [1m[36mRecipe Load (5.6ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  [1m[36mDiet Load (3.9ms)[0m  [1m[34mSELECT "diets".* FROM "diets"[0m
+  ↳ app/controllers/api/v1/recipes_controller.rb:8:in `index'
+Completed 200 OK in 15ms (Views: 9.3ms | ActiveRecord: 5.6ms | Allocations: 3319)
+
+
+  ↳ app/controllers/api/v1/diets_controller.rb:5:in `index'
+Completed 200 OK in 17ms (Views: 11.6ms | ActiveRecord: 3.9ms | Allocations: 3525)
+
+
+Started GET "/api/v1/recipes" for ::1 at 2020-05-29 09:14:00 -0400
+Started GET "/api/v1/diets" for ::1 at 2020-05-29 09:14:00 -0400
+Processing by Api::V1::RecipesController#index as */*
+Processing by Api::V1::DietsController#index as */*
+  [1m[36mRecipe Load (13.6ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/controllers/api/v1/recipes_controller.rb:8:in `index'
+Completed 200 OK in 41ms (Views: 23.6ms | ActiveRecord: 13.6ms | Allocations: 2369)
+
+
+  [1m[36mDiet Load (33.1ms)[0m  [1m[34mSELECT "diets".* FROM "diets"[0m
+  ↳ app/controllers/api/v1/diets_controller.rb:5:in `index'
+Completed 200 OK in 63ms (Views: 29.7ms | ActiveRecord: 33.1ms | Allocations: 3668)
+
+
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mRecipe Load (0.9ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  [1m[35m (9.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRecipe Destroy (1.0ms)[0m  [1m[31mDELETE FROM "recipes" WHERE "recipes"."id" = $1[0m  [["id", 102]]
+  [1m[35m (2.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRecipe Destroy (0.4ms)[0m  [1m[31mDELETE FROM "recipes" WHERE "recipes"."id" = $1[0m  [["id", 103]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRecipe Destroy (0.3ms)[0m  [1m[31mDELETE FROM "recipes" WHERE "recipes"."id" = $1[0m  [["id", 104]]
+  [1m[35m (2.9ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRecipe Destroy (24.8ms)[0m  [1m[31mDELETE FROM "recipes" WHERE "recipes"."id" = $1[0m  [["id", 105]]
+  [1m[35m (0.6ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRecipe Destroy (0.3ms)[0m  [1m[31mDELETE FROM "recipes" WHERE "recipes"."id" = $1[0m  [["id", 106]]
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRecipe Destroy (0.3ms)[0m  [1m[31mDELETE FROM "recipes" WHERE "recipes"."id" = $1[0m  [["id", 107]]
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRecipe Destroy (1.4ms)[0m  [1m[31mDELETE FROM "recipes" WHERE "recipes"."id" = $1[0m  [["id", 108]]
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRecipe Destroy (0.3ms)[0m  [1m[31mDELETE FROM "recipes" WHERE "recipes"."id" = $1[0m  [["id", 109]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mDiet Load (25.9ms)[0m  [1m[34mSELECT "diets".* FROM "diets"[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mDiet Destroy (0.3ms)[0m  [1m[31mDELETE FROM "diets" WHERE "diets"."id" = $1[0m  [["id", 101]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mDiet Destroy (0.3ms)[0m  [1m[31mDELETE FROM "diets" WHERE "diets"."id" = $1[0m  [["id", 102]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mDiet Destroy (0.3ms)[0m  [1m[31mDELETE FROM "diets" WHERE "diets"."id" = $1[0m  [["id", 103]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mDiet Destroy (0.3ms)[0m  [1m[31mDELETE FROM "diets" WHERE "diets"."id" = $1[0m  [["id", 104]]
+  [1m[35m (25.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mRecipeDiet Load (1.0ms)[0m  [1m[34mSELECT "recipe_diets".* FROM "recipe_diets"[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRecipeDiet Destroy (0.3ms)[0m  [1m[31mDELETE FROM "recipe_diets" WHERE "recipe_diets"."id" = $1[0m  [["id", 151]]
+  [1m[35m (25.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRecipeDiet Destroy (0.5ms)[0m  [1m[31mDELETE FROM "recipe_diets" WHERE "recipe_diets"."id" = $1[0m  [["id", 152]]
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRecipeDiet Destroy (0.4ms)[0m  [1m[31mDELETE FROM "recipe_diets" WHERE "recipe_diets"."id" = $1[0m  [["id", 153]]
+  [1m[35m (25.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRecipeDiet Destroy (0.5ms)[0m  [1m[31mDELETE FROM "recipe_diets" WHERE "recipe_diets"."id" = $1[0m  [["id", 154]]
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRecipeDiet Destroy (0.4ms)[0m  [1m[31mDELETE FROM "recipe_diets" WHERE "recipe_diets"."id" = $1[0m  [["id", 155]]
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRecipeDiet Destroy (0.3ms)[0m  [1m[31mDELETE FROM "recipe_diets" WHERE "recipe_diets"."id" = $1[0m  [["id", 156]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRecipeDiet Destroy (0.3ms)[0m  [1m[31mDELETE FROM "recipe_diets" WHERE "recipe_diets"."id" = $1[0m  [["id", 157]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRecipeDiet Destroy (0.3ms)[0m  [1m[31mDELETE FROM "recipe_diets" WHERE "recipe_diets"."id" = $1[0m  [["id", 158]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (24.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRecipeDiet Destroy (0.6ms)[0m  [1m[31mDELETE FROM "recipe_diets" WHERE "recipe_diets"."id" = $1[0m  [["id", 159]]
+  [1m[35m (0.6ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRecipeDiet Destroy (0.3ms)[0m  [1m[31mDELETE FROM "recipe_diets" WHERE "recipe_diets"."id" = $1[0m  [["id", 160]]
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRecipeDiet Destroy (0.3ms)[0m  [1m[31mDELETE FROM "recipe_diets" WHERE "recipe_diets"."id" = $1[0m  [["id", 161]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRecipeDiet Destroy (0.3ms)[0m  [1m[31mDELETE FROM "recipe_diets" WHERE "recipe_diets"."id" = $1[0m  [["id", 162]]
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRecipeDiet Destroy (0.2ms)[0m  [1m[31mDELETE FROM "recipe_diets" WHERE "recipe_diets"."id" = $1[0m  [["id", 163]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRecipeDiet Destroy (0.2ms)[0m  [1m[31mDELETE FROM "recipe_diets" WHERE "recipe_diets"."id" = $1[0m  [["id", 164]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (25.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRecipeDiet Destroy (0.6ms)[0m  [1m[31mDELETE FROM "recipe_diets" WHERE "recipe_diets"."id" = $1[0m  [["id", 165]]
+  [1m[35m (0.6ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRecipeDiet Destroy (0.3ms)[0m  [1m[31mDELETE FROM "recipe_diets" WHERE "recipe_diets"."id" = $1[0m  [["id", 166]]
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRecipeDiet Destroy (0.3ms)[0m  [1m[31mDELETE FROM "recipe_diets" WHERE "recipe_diets"."id" = $1[0m  [["id", 167]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRecipeDiet Destroy (0.3ms)[0m  [1m[31mDELETE FROM "recipe_diets" WHERE "recipe_diets"."id" = $1[0m  [["id", 168]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRecipeDiet Destroy (0.3ms)[0m  [1m[31mDELETE FROM "recipe_diets" WHERE "recipe_diets"."id" = $1[0m  [["id", 169]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRecipeDiet Destroy (0.2ms)[0m  [1m[31mDELETE FROM "recipe_diets" WHERE "recipe_diets"."id" = $1[0m  [["id", 170]]
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (14.7ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRecipeDiet Destroy (0.5ms)[0m  [1m[31mDELETE FROM "recipe_diets" WHERE "recipe_diets"."id" = $1[0m  [["id", 171]]
+  [1m[35m (0.6ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRecipeDiet Destroy (0.3ms)[0m  [1m[31mDELETE FROM "recipe_diets" WHERE "recipe_diets"."id" = $1[0m  [["id", 172]]
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRecipeDiet Destroy (0.3ms)[0m  [1m[31mDELETE FROM "recipe_diets" WHERE "recipe_diets"."id" = $1[0m  [["id", 173]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRecipeDiet Destroy (0.2ms)[0m  [1m[31mDELETE FROM "recipe_diets" WHERE "recipe_diets"."id" = $1[0m  [["id", 174]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRecipeDiet Destroy (0.3ms)[0m  [1m[31mDELETE FROM "recipe_diets" WHERE "recipe_diets"."id" = $1[0m  [["id", 175]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRecipe Create (25.9ms)[0m  [1m[32mINSERT INTO "recipes" ("name", "ingredients", "instructions", "image_url", "likes", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["name", "Fig Martini"], ["ingredients", "3 fresh figs - quartered, 3 tablespoons fig jam, Juice of 1 lemon, 2 tablespoons honey, 6 oz vodka, Sliced fresh figs - as optional garnish"], ["instructions", "In a cocktail shaker, muddle the figs, jam, lemon juice, and honey together until the figs are mostly broken down.\nAdd ice and the vodka and shake the mixture vigorously for a few seconds to chill and incorporate the ingredients.\nStrain into martini glasses and garnish with slices of fresh fig. Serve immediately."], ["image_url", "https://images.unsplash.com/photo-1536599424071-0b215a388ba7?ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80"], ["likes", 0], ["created_at", "2020-05-29 13:19:12.757136"], ["updated_at", "2020-05-29 13:19:12.757136"]]
+  [1m[35m (2.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRecipe Create (1.3ms)[0m  [1m[32mINSERT INTO "recipes" ("name", "ingredients", "instructions", "image_url", "likes", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["name", "Banana Pudding"], ["ingredients", "4 cups Vegan Peanut Butter Pudding, 3 cups full-fat coconut milk or cream, Stevia or powdered sugar"], ["instructions", "If you haven’t already, prepare your Peanut Butter Pudding and chill (cover with plastic wrap to prevent film). Set in refrigerator.\n        If you haven’t already, prepare a double batch of coconut whipped cream, using full-fat coconut milk or coconut cream and sweetening to taste with stevia or powdered sugar. Set in refrigerator.\n        In a large mixing bowl, use a rubber spatula to gently mix together pudding and half of the coconut whipped cream.\n        In a 9x13 inch (or comparable size) pan, begin by adding a layer of vanilla wafers (reserving some wafers for the top layer). Using three of the bananas, add a layer of thinly sliced bananas on top of the vanilla wafers.\n        For the next layer, top bananas with the pudding-coconut-whip mixture. Smooth the top with a wooden spoon. Use the same method to top with the remaining coconut whipped cream.\n        Cover and place in the refrigerator to chill for at least 4-6 hours, preferably overnight. Remove from fridge and top with a layer of loosely arranged sliced bananas. Crush remaining wafers and sprinkle on top. Sprinkle with crushed peanuts (if using)."], ["image_url", "https://images.unsplash.com/photo-1515544645059-de313dd20a58?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=632&q=80"], ["likes", 0], ["created_at", "2020-05-29 13:19:12.791614"], ["updated_at", "2020-05-29 13:19:12.791614"]]
+  [1m[35m (0.8ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRecipe Create (0.4ms)[0m  [1m[32mINSERT INTO "recipes" ("name", "ingredients", "instructions", "image_url", "likes", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["name", "Pink Grapefruit Margarita"], ["ingredients", "1 lime, cut in wedges - optional, Kosher salt - optional, 1 cup ruby red grapefruit juice, 1/2 cup freshly squeezed lime juice (4 limes), 1 cup orange liqueur, 2 cups ice, 1 cup white tequila"], ["instructions", "If you like a salt rim on the glasses, rub the lime around the edge of the glass and then dip the rim of each glass lightly in a plate of kosher salt. Set aside to dry.\n        Combine the grapefruit juice, lime juice, orange liqueur, and ice in a blender and puree until smooth. Pour into a large pitcher and stir in the tequila. If youre not serving the margaritas in salted glasses, stir 1/4 teaspoon of salt into the pitcher of margaritas. Believe me, it will make a difference!\n        Serve ice cold."], ["image_url", "https://images.unsplash.com/photo-1486428263684-28ec9e4f2584?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80"], ["likes", 0], ["created_at", "2020-05-29 13:19:12.800531"], ["updated_at", "2020-05-29 13:19:12.800531"]]
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRecipe Create (0.3ms)[0m  [1m[32mINSERT INTO "recipes" ("name", "ingredients", "instructions", "image_url", "likes", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["name", "Tumeric Cauliflower Soup"], ["ingredients", "1 large cauliflower, 2 tbsp olive oil, ½ tsp cinnamon, ½ tsp cumin, ½ tsp coriander, 2 tbsp harissa paste - plus extra drizzle, 1l hot vegetable or chicken stock, 50g toasted flaked almond - plus extra to serve"], ["instructions", "Cut the cauliflower into small florets. Fry olive oil, ground cinnamon, cumin and coriander and harissa paste for 2 mins in a large pan. Add the cauliflower, stock and almonds. Cover and cook for 20 mins until the cauliflower is tender. Blend soup until smooth, then serve with an extra drizzle of harissa and a sprinkle of toasted almonds."], ["image_url", "https://images.unsplash.com/photo-1505253668822-42074d58a7c6?ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80"], ["likes", 0], ["created_at", "2020-05-29 13:19:12.805927"], ["updated_at", "2020-05-29 13:19:12.805927"]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (24.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRecipe Create (0.6ms)[0m  [1m[32mINSERT INTO "recipes" ("name", "ingredients", "instructions", "image_url", "likes", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["name", "Avocado Toast"], ["ingredients", "2 slices bread, 1/2 – 3/4 medium ripe avocado, 1-2 Tbsp vegan parmesan, 1 pinch red pepper flake"], ["instructions", "Toast bread in the oven or toaster. Top with ripe avocado and use a fork to smash. Top with vegan parmesan cheese and (optional) red pepper flake. Eat, repeat, enjoy!"], ["image_url", "https://images.unsplash.com/photo-1505575156881-dd15ae275636?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=676&q=80"], ["likes", 0], ["created_at", "2020-05-29 13:19:12.810364"], ["updated_at", "2020-05-29 13:19:12.810364"]]
+  [1m[35m (0.6ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRecipe Create (0.3ms)[0m  [1m[32mINSERT INTO "recipes" ("name", "ingredients", "instructions", "image_url", "likes", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["name", "Grilled Corn Tacos"], ["ingredients", "Handful of whole green beans, about 1 cup\n3 ears of fresh corn, ¼ cup chopped grilled onion, ½ cup halved or quartered cherry tomatoes, teaspoon extra-virgin olive oil, Juice of 1 lime, ½ cup chopped cilantro, Sea salt and freshly ground black pepper, 8 to 10 flour tortillas*, ½ cup crumbled feta cheese, 1 serrano pepper (sliced - optional)"], ["instructions", "Prep the green beans by blanching them in boiling water for 3 minutes, then transfer to a bowl of ice water. Once cool, transfer to a towel to dry and set aside.\nMake the Tomatillo salsa and chill until ready to use. Make the filling. Heat a grill to medium heat and grill the blanched green beans and the whole ears of corn until charred on all sides.\nChop the green beans into 1” pieces and add them to a large bowl with the onion and tomatoes. Slice the kernels off the corn and add those to the bowl as well. Add the olive oil, lime juice, cilantro, pinches of salt and pepper, and a few spoonfuls of the tomatillo salsa and toss. Season to taste.\nGrill or warm the tortillas. Assemble the tacos with the corn taco filling, feta cheese, and serrano slices, if desired. Top with salsa and serve the extra on the side."], ["image_url", "https://images.unsplash.com/photo-1511690078903-71dc5a49f5e3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=700&q=80"], ["likes", 0], ["created_at", "2020-05-29 13:19:12.841879"], ["updated_at", "2020-05-29 13:19:12.841879"]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRecipe Create (0.3ms)[0m  [1m[32mINSERT INTO "recipes" ("name", "ingredients", "instructions", "image_url", "likes", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["name", "Massaged Kale Salad"], ["ingredients", "2 large bundles curly kale, 1 Tbsp lemon juice, 1 Tbsp extra virgin olive oil, 1 healthy pinch sea salt. DRESSING: 1/3 cup tahini, 3 Tbsp lemon juice, 1-2 Tbsp maple syrup, 1 pinch sea salt, Water to thin"], ["instructions", "Once you’ve rinsed and dried your kale, run your hand along the stem to remove the green leaves from the stalky stem. You don’t have to remove the stem completely, but be sure to compost or reserve the larger bottom stalks for DIY vegetable broth. Stack your stalks of kale on top of each other and finely chop. No need to mince, just cut into manageable, bite-size pieces. Add kale to a large mixing / serving bowl and top with lemon juice and extra virgin olive oil. Then massage with clean hands for about 3 minutes. The point of massaging is to infuse the kale with the lemon juice and oil, and also to break down some of the tough, fibrous characteristics of kale. This makes it easier to chew and digest, and makes for a more tender salad. Season with salt, massage/toss once more, then set aside.\n        Next prepare the dressing by adding tahini, lemon juice, maple syrup, and salt (optional) to a medium mixing bowl. Whisk to combine. Then slowly add water until creamy and pourable. The mixture may seize up and thicken at first, but continue adding water a little at a time, whisking until creamy and smooth. Taste and adjust flavor as needed, adding more lemon juice for acidity, maple syrup for sweetness, or salt to taste. Set aside. (Store leftover dressing in the refrigerator up to 5-7 days — sometimes longer.)\n        To serve, top with desired amount of dressing and crispy chickpeas (optional), toss, and serve. Leftovers keep covered in the refrigerator up to 3-4 days (not freezer friendly)."], ["image_url", "https://images.unsplash.com/photo-1515543237350-b3eea1ec8082?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=632&q=80"], ["likes", 0], ["created_at", "2020-05-29 13:19:12.846876"], ["updated_at", "2020-05-29 13:19:12.846876"]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRecipe Create (0.6ms)[0m  [1m[32mINSERT INTO "recipes" ("name", "ingredients", "instructions", "image_url", "likes", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["name", "Roasted Chicken"], ["ingredients", "1 3-4 pound whole chicken, 2 Tbsp melted butter (Miyoko’s or Earth Balance for dairy-free, 3/4-1 Tbsp sea salt, 1-2 tsp black pepper, 1 small lemon - rinsed and quartered, 4 sprigs fresh rosemary (or sub thyme)"], ["instructions", "Set chicken on a clean plate then wash hands with hot soapy water. Melt butter and drizzle over the skin of the chicken and brush to distribute evenly. Season the exterior and interior cavity of the chicken with salt and pepper (as the recipe is written, about 3/4-1 Tbsp sea salt and 1-2 tsp black pepper). This sounds like a lot of salt, but there should be a generous layer of seasoning on the chicken so it flavors the meat well. (For a roughly 4 lb. chicken, we used about 1 Tbsp salt and 2 tsp black pepper total.) Insert the lemon and fresh rosemary into the cavity — this infuses more flavor and also makes for a more flavorful broth (if making broth afterward). Set the chicken in the fridge uncovered (this allows the chicken to dry out a bit, which helps it crisp more when roasting). Wait 24-36 hours (ideally) or at least 8-10 hours to cook. At this time, be sure to wash hands with hot soapy water again and clean all surfaces well to avoid spreading bacteria. Once you’re ready to cook your chicken, preheat oven to 450 degrees F (232 C). Get out a large rimmed roasting pan or cast-iron skillet (we like this baking dish). If adding veggies (optional) add carrots and potatoes to the pan. Drizzle with a bit of oil and season well with salt and pepper. Then toss to combine. Arrange the veggies around the perimeter of the dish, then add the chicken (breast side up) in the center (if not baking with veggies, just place chicken in center of pan). Bake for 45 minutes to 1 hour 15 minutes (UNCOVERED) or until the exterior is crispy and golden brown and the internal temperature of the thickest part of the thigh reads 165 F (74 C). I also like to measure the breast temperature to ensure it’s done in the center as well (also 165 F / 74 C). For an accurate read, be sure the thermometer is not touching bone. Remove from oven and let chicken rest for about 10-15 minutes before serving. This ensures the juices redistribute to keep the chicken moist. To slice the chicken, use a sharp knife to remove the wings and the thighs (option to cut the leg/drumstick from the thigh for easier serving portions). Then slice down either side of the breast bone and thinly slice the breasts into 1/4-inch serving portions. Use hands to carefully remove any other parts of meat from the bones. Lastly, if opting to make bone broth, save the bones (including the legs and wings after meat has been removed).\n        To serve, arrange the carrots and potatoes on a serving platter and top with pieces of chicken. You will likely have a generous portion of cooking juices left over in the roasting pan, which I recommend transferring to a small dish and serving on the side to add more flavor as a lazy but delicious form of 'gravy.'"], ["image_url", "https://minimalistbaker.com/wp-content/uploads/2019/10/EASY-Lemon-Herb-Roasted-Chicken-1-pan-6-ingredients-BIG-flavor-perfectly-tender-chicken-glutenfree-chicken-recipe-minimalistbaker-14.jpg"], ["likes", 0], ["created_at", "2020-05-29 13:19:12.851414"], ["updated_at", "2020-05-29 13:19:12.851414"]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mDiet Create (0.4ms)[0m  [1m[32mINSERT INTO "diets" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "vegetarian"], ["created_at", "2020-05-29 13:19:12.856195"], ["updated_at", "2020-05-29 13:19:12.856195"]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (24.0ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mDiet Create (0.6ms)[0m  [1m[32mINSERT INTO "diets" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "gluten-free"], ["created_at", "2020-05-29 13:19:12.860567"], ["updated_at", "2020-05-29 13:19:12.860567"]]
+  [1m[35m (0.6ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mDiet Create (0.3ms)[0m  [1m[32mINSERT INTO "diets" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "Paleo"], ["created_at", "2020-05-29 13:19:12.891864"], ["updated_at", "2020-05-29 13:19:12.891864"]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mDiet Create (0.4ms)[0m  [1m[32mINSERT INTO "diets" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "dairy-free"], ["created_at", "2020-05-29 13:19:12.896550"], ["updated_at", "2020-05-29 13:19:12.896550"]]
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (15.4ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRecipeDiet Create (0.8ms)[0m  [1m[32mINSERT INTO "recipe_diets" ("recipe_id", "diet_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["recipe_id", 114], ["diet_id", 105], ["created_at", "2020-05-29 13:19:12.919014"], ["updated_at", "2020-05-29 13:19:12.919014"]]
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRecipeDiet Create (0.3ms)[0m  [1m[32mINSERT INTO "recipe_diets" ("recipe_id", "diet_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["recipe_id", 114], ["diet_id", 108], ["created_at", "2020-05-29 13:19:12.942129"], ["updated_at", "2020-05-29 13:19:12.942129"]]
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRecipeDiet Create (0.3ms)[0m  [1m[32mINSERT INTO "recipe_diets" ("recipe_id", "diet_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["recipe_id", 116], ["diet_id", 105], ["created_at", "2020-05-29 13:19:12.947461"], ["updated_at", "2020-05-29 13:19:12.947461"]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRecipeDiet Create (0.3ms)[0m  [1m[32mINSERT INTO "recipe_diets" ("recipe_id", "diet_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["recipe_id", 116], ["diet_id", 108], ["created_at", "2020-05-29 13:19:12.952329"], ["updated_at", "2020-05-29 13:19:12.952329"]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRecipeDiet Create (0.3ms)[0m  [1m[32mINSERT INTO "recipe_diets" ("recipe_id", "diet_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["recipe_id", 116], ["diet_id", 106], ["created_at", "2020-05-29 13:19:12.957057"], ["updated_at", "2020-05-29 13:19:12.957057"]]
+  [1m[35m (25.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRecipeDiet Create (0.5ms)[0m  [1m[32mINSERT INTO "recipe_diets" ("recipe_id", "diet_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["recipe_id", 116], ["diet_id", 107], ["created_at", "2020-05-29 13:19:12.987578"], ["updated_at", "2020-05-29 13:19:12.987578"]]
+  [1m[35m (0.6ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRecipeDiet Create (0.4ms)[0m  [1m[32mINSERT INTO "recipe_diets" ("recipe_id", "diet_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["recipe_id", 117], ["diet_id", 107], ["created_at", "2020-05-29 13:19:12.994906"], ["updated_at", "2020-05-29 13:19:12.994906"]]
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRecipeDiet Create (0.3ms)[0m  [1m[32mINSERT INTO "recipe_diets" ("recipe_id", "diet_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["recipe_id", 117], ["diet_id", 106], ["created_at", "2020-05-29 13:19:13.000091"], ["updated_at", "2020-05-29 13:19:13.000091"]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRecipeDiet Create (0.3ms)[0m  [1m[32mINSERT INTO "recipe_diets" ("recipe_id", "diet_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["recipe_id", 117], ["diet_id", 108], ["created_at", "2020-05-29 13:19:13.004513"], ["updated_at", "2020-05-29 13:19:13.004513"]]
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRecipeDiet Create (24.7ms)[0m  [1m[32mINSERT INTO "recipe_diets" ("recipe_id", "diet_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["recipe_id", 111], ["diet_id", 105], ["created_at", "2020-05-29 13:19:13.008830"], ["updated_at", "2020-05-29 13:19:13.008830"]]
+  [1m[35m (0.7ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRecipeDiet Create (0.4ms)[0m  [1m[32mINSERT INTO "recipe_diets" ("recipe_id", "diet_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["recipe_id", 111], ["diet_id", 108], ["created_at", "2020-05-29 13:19:13.040004"], ["updated_at", "2020-05-29 13:19:13.040004"]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRecipeDiet Create (0.3ms)[0m  [1m[32mINSERT INTO "recipe_diets" ("recipe_id", "diet_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["recipe_id", 112], ["diet_id", 105], ["created_at", "2020-05-29 13:19:13.045595"], ["updated_at", "2020-05-29 13:19:13.045595"]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRecipeDiet Create (0.3ms)[0m  [1m[32mINSERT INTO "recipe_diets" ("recipe_id", "diet_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["recipe_id", 112], ["diet_id", 106], ["created_at", "2020-05-29 13:19:13.050138"], ["updated_at", "2020-05-29 13:19:13.050138"]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRecipeDiet Create (0.3ms)[0m  [1m[32mINSERT INTO "recipe_diets" ("recipe_id", "diet_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["recipe_id", 112], ["diet_id", 108], ["created_at", "2020-05-29 13:19:13.054431"], ["updated_at", "2020-05-29 13:19:13.054431"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRecipeDiet Create (25.2ms)[0m  [1m[32mINSERT INTO "recipe_diets" ("recipe_id", "diet_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["recipe_id", 110], ["diet_id", 108], ["created_at", "2020-05-29 13:19:13.058576"], ["updated_at", "2020-05-29 13:19:13.058576"]]
+  [1m[35m (0.6ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRecipeDiet Create (0.3ms)[0m  [1m[32mINSERT INTO "recipe_diets" ("recipe_id", "diet_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["recipe_id", 110], ["diet_id", 106], ["created_at", "2020-05-29 13:19:13.100308"], ["updated_at", "2020-05-29 13:19:13.100308"]]
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRecipeDiet Create (0.3ms)[0m  [1m[32mINSERT INTO "recipe_diets" ("recipe_id", "diet_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["recipe_id", 110], ["diet_id", 105], ["created_at", "2020-05-29 13:19:13.105248"], ["updated_at", "2020-05-29 13:19:13.105248"]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (24.6ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRecipeDiet Create (0.6ms)[0m  [1m[32mINSERT INTO "recipe_diets" ("recipe_id", "diet_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["recipe_id", 110], ["diet_id", 107], ["created_at", "2020-05-29 13:19:13.109953"], ["updated_at", "2020-05-29 13:19:13.109953"]]
+  [1m[35m (0.6ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRecipeDiet Create (0.3ms)[0m  [1m[32mINSERT INTO "recipe_diets" ("recipe_id", "diet_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["recipe_id", 115], ["diet_id", 108], ["created_at", "2020-05-29 13:19:13.142057"], ["updated_at", "2020-05-29 13:19:13.142057"]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRecipeDiet Create (0.3ms)[0m  [1m[32mINSERT INTO "recipe_diets" ("recipe_id", "diet_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["recipe_id", 115], ["diet_id", 105], ["created_at", "2020-05-29 13:19:13.147191"], ["updated_at", "2020-05-29 13:19:13.147191"]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRecipeDiet Create (0.3ms)[0m  [1m[32mINSERT INTO "recipe_diets" ("recipe_id", "diet_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["recipe_id", 115], ["diet_id", 106], ["created_at", "2020-05-29 13:19:13.151905"], ["updated_at", "2020-05-29 13:19:13.151905"]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRecipeDiet Create (0.3ms)[0m  [1m[32mINSERT INTO "recipe_diets" ("recipe_id", "diet_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["recipe_id", 113], ["diet_id", 106], ["created_at", "2020-05-29 13:19:13.156502"], ["updated_at", "2020-05-29 13:19:13.156502"]]
+  [1m[35m (25.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRecipeDiet Create (0.3ms)[0m  [1m[32mINSERT INTO "recipe_diets" ("recipe_id", "diet_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["recipe_id", 113], ["diet_id", 108], ["created_at", "2020-05-29 13:19:13.185966"], ["updated_at", "2020-05-29 13:19:13.185966"]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRecipeDiet Create (0.5ms)[0m  [1m[32mINSERT INTO "recipe_diets" ("recipe_id", "diet_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["recipe_id", 113], ["diet_id", 107], ["created_at", "2020-05-29 13:19:13.190470"], ["updated_at", "2020-05-29 13:19:13.190470"]]
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRecipeDiet Create (0.4ms)[0m  [1m[32mINSERT INTO "recipe_diets" ("recipe_id", "diet_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["recipe_id", 113], ["diet_id", 105], ["created_at", "2020-05-29 13:19:13.195285"], ["updated_at", "2020-05-29 13:19:13.195285"]]
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+Started GET "/api/v1/diets" for ::1 at 2020-05-29 09:19:18 -0400
+Started GET "/api/v1/recipes" for ::1 at 2020-05-29 09:19:18 -0400
+Processing by Api::V1::RecipesController#index as */*
+Processing by Api::V1::DietsController#index as */*
+  [1m[36mDiet Load (0.8ms)[0m  [1m[34mSELECT "diets".* FROM "diets"[0m
+  ↳ app/controllers/api/v1/diets_controller.rb:5:in `index'
+Completed 200 OK in 6ms (Views: 4.3ms | ActiveRecord: 0.8ms | Allocations: 1222)
+
+
+  [1m[36mRecipe Load (57.3ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/controllers/api/v1/recipes_controller.rb:8:in `index'
+Completed 200 OK in 62ms (Views: 4.4ms | ActiveRecord: 57.3ms | Allocations: 4064)
+
+
+Started GET "/api/v1/diets" for ::1 at 2020-05-29 09:22:17 -0400
+Started GET "/api/v1/recipes" for ::1 at 2020-05-29 09:22:17 -0400
+Processing by Api::V1::DietsController#index as */*
+  [1m[36mDiet Load (4.4ms)[0m  [1m[34mSELECT "diets".* FROM "diets"[0m
+Processing by Api::V1::RecipesController#index as */*
+  ↳ app/controllers/api/v1/diets_controller.rb:5:in `index'
+Completed 200 OK in 12ms (Views: 7.0ms | ActiveRecord: 4.4ms | Allocations: 1726)
+
+
+  [1m[36mRecipe Load (27.9ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/controllers/api/v1/recipes_controller.rb:8:in `index'
+Completed 200 OK in 34ms (Views: 5.7ms | ActiveRecord: 27.9ms | Allocations: 2876)
+
+
+Started GET "/api/v1/recipes" for ::1 at 2020-05-29 09:23:39 -0400
+Started GET "/api/v1/diets" for ::1 at 2020-05-29 09:23:39 -0400
+Processing by Api::V1::DietsController#index as */*
+  [1m[36mDiet Load (3.4ms)[0m  [1m[34mSELECT "diets".* FROM "diets"[0m
+  ↳ app/controllers/api/v1/diets_controller.rb:5:in `index'
+Processing by Api::V1::RecipesController#index as */*
+Completed 200 OK in 10ms (Views: 5.3ms | ActiveRecord: 3.4ms | Allocations: 1619)
+
+
+  [1m[36mRecipe Load (1.1ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/controllers/api/v1/recipes_controller.rb:8:in `index'
+Completed 200 OK in 10ms (Views: 8.8ms | ActiveRecord: 1.1ms | Allocations: 2366)
+
+
+Started GET "/api/v1/diets" for ::1 at 2020-05-29 09:25:27 -0400
+Started GET "/api/v1/recipes" for ::1 at 2020-05-29 09:25:27 -0400
+Processing by Api::V1::RecipesController#index as */*
+Processing by Api::V1::DietsController#index as */*
+  [1m[36mDiet Load (0.6ms)[0m  [1m[34mSELECT "diets".* FROM "diets"[0m
+  ↳ app/controllers/api/v1/diets_controller.rb:5:in `index'
+Completed 200 OK in 3ms (Views: 2.5ms | ActiveRecord: 0.6ms | Allocations: 1306)
+
+
+  [1m[36mRecipe Load (2.7ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  ↳ app/controllers/api/v1/recipes_controller.rb:8:in `index'
+Completed 200 OK in 16ms (Views: 12.0ms | ActiveRecord: 2.7ms | Allocations: 3636)
+
+
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mRecipe Load (1.0ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  [1m[35m (5.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRecipe Destroy (0.7ms)[0m  [1m[31mDELETE FROM "recipes" WHERE "recipes"."id" = $1[0m  [["id", 110]]
+  [1m[35m (4.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRecipe Destroy (0.4ms)[0m  [1m[31mDELETE FROM "recipes" WHERE "recipes"."id" = $1[0m  [["id", 111]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRecipe Destroy (0.3ms)[0m  [1m[31mDELETE FROM "recipes" WHERE "recipes"."id" = $1[0m  [["id", 112]]
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRecipe Destroy (0.3ms)[0m  [1m[31mDELETE FROM "recipes" WHERE "recipes"."id" = $1[0m  [["id", 113]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRecipe Destroy (0.3ms)[0m  [1m[31mDELETE FROM "recipes" WHERE "recipes"."id" = $1[0m  [["id", 114]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (25.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRecipe Destroy (0.5ms)[0m  [1m[31mDELETE FROM "recipes" WHERE "recipes"."id" = $1[0m  [["id", 115]]
+  [1m[35m (0.6ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRecipe Destroy (0.3ms)[0m  [1m[31mDELETE FROM "recipes" WHERE "recipes"."id" = $1[0m  [["id", 116]]
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRecipe Destroy (0.5ms)[0m  [1m[31mDELETE FROM "recipes" WHERE "recipes"."id" = $1[0m  [["id", 117]]
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mDiet Load (0.6ms)[0m  [1m[34mSELECT "diets".* FROM "diets"[0m
+  [1m[35m (22.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mDiet Destroy (0.6ms)[0m  [1m[31mDELETE FROM "diets" WHERE "diets"."id" = $1[0m  [["id", 105]]
+  [1m[35m (0.6ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mDiet Destroy (0.3ms)[0m  [1m[31mDELETE FROM "diets" WHERE "diets"."id" = $1[0m  [["id", 106]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mDiet Destroy (0.3ms)[0m  [1m[31mDELETE FROM "diets" WHERE "diets"."id" = $1[0m  [["id", 107]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mDiet Destroy (0.2ms)[0m  [1m[31mDELETE FROM "diets" WHERE "diets"."id" = $1[0m  [["id", 108]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mRecipeDiet Load (26.0ms)[0m  [1m[34mSELECT "recipe_diets".* FROM "recipe_diets"[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRecipeDiet Destroy (0.3ms)[0m  [1m[31mDELETE FROM "recipe_diets" WHERE "recipe_diets"."id" = $1[0m  [["id", 176]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRecipeDiet Destroy (0.3ms)[0m  [1m[31mDELETE FROM "recipe_diets" WHERE "recipe_diets"."id" = $1[0m  [["id", 177]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (16.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRecipeDiet Destroy (0.6ms)[0m  [1m[31mDELETE FROM "recipe_diets" WHERE "recipe_diets"."id" = $1[0m  [["id", 178]]
+  [1m[35m (0.6ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRecipeDiet Destroy (0.5ms)[0m  [1m[31mDELETE FROM "recipe_diets" WHERE "recipe_diets"."id" = $1[0m  [["id", 179]]
+  [1m[35m (0.6ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRecipeDiet Destroy (0.4ms)[0m  [1m[31mDELETE FROM "recipe_diets" WHERE "recipe_diets"."id" = $1[0m  [["id", 180]]
+  [1m[35m (0.6ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRecipeDiet Destroy (0.2ms)[0m  [1m[31mDELETE FROM "recipe_diets" WHERE "recipe_diets"."id" = $1[0m  [["id", 181]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRecipeDiet Destroy (0.3ms)[0m  [1m[31mDELETE FROM "recipe_diets" WHERE "recipe_diets"."id" = $1[0m  [["id", 182]]
+  [1m[35m (25.8ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRecipeDiet Destroy (0.5ms)[0m  [1m[31mDELETE FROM "recipe_diets" WHERE "recipe_diets"."id" = $1[0m  [["id", 183]]
+  [1m[35m (0.6ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRecipeDiet Destroy (0.4ms)[0m  [1m[31mDELETE FROM "recipe_diets" WHERE "recipe_diets"."id" = $1[0m  [["id", 184]]
+  [1m[35m (0.6ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRecipeDiet Destroy (0.3ms)[0m  [1m[31mDELETE FROM "recipe_diets" WHERE "recipe_diets"."id" = $1[0m  [["id", 185]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRecipeDiet Destroy (0.3ms)[0m  [1m[31mDELETE FROM "recipe_diets" WHERE "recipe_diets"."id" = $1[0m  [["id", 186]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRecipeDiet Destroy (0.3ms)[0m  [1m[31mDELETE FROM "recipe_diets" WHERE "recipe_diets"."id" = $1[0m  [["id", 187]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (24.9ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRecipeDiet Destroy (0.5ms)[0m  [1m[31mDELETE FROM "recipe_diets" WHERE "recipe_diets"."id" = $1[0m  [["id", 188]]
+  [1m[35m (0.6ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRecipeDiet Destroy (0.3ms)[0m  [1m[31mDELETE FROM "recipe_diets" WHERE "recipe_diets"."id" = $1[0m  [["id", 189]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRecipeDiet Destroy (0.3ms)[0m  [1m[31mDELETE FROM "recipe_diets" WHERE "recipe_diets"."id" = $1[0m  [["id", 190]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRecipeDiet Destroy (0.4ms)[0m  [1m[31mDELETE FROM "recipe_diets" WHERE "recipe_diets"."id" = $1[0m  [["id", 191]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRecipeDiet Destroy (0.2ms)[0m  [1m[31mDELETE FROM "recipe_diets" WHERE "recipe_diets"."id" = $1[0m  [["id", 192]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRecipeDiet Destroy (0.3ms)[0m  [1m[31mDELETE FROM "recipe_diets" WHERE "recipe_diets"."id" = $1[0m  [["id", 193]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRecipeDiet Destroy (24.9ms)[0m  [1m[31mDELETE FROM "recipe_diets" WHERE "recipe_diets"."id" = $1[0m  [["id", 194]]
+  [1m[35m (0.7ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRecipeDiet Destroy (0.4ms)[0m  [1m[31mDELETE FROM "recipe_diets" WHERE "recipe_diets"."id" = $1[0m  [["id", 195]]
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRecipeDiet Destroy (0.3ms)[0m  [1m[31mDELETE FROM "recipe_diets" WHERE "recipe_diets"."id" = $1[0m  [["id", 196]]
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (25.0ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRecipeDiet Destroy (0.5ms)[0m  [1m[31mDELETE FROM "recipe_diets" WHERE "recipe_diets"."id" = $1[0m  [["id", 197]]
+  [1m[35m (0.6ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRecipeDiet Destroy (0.3ms)[0m  [1m[31mDELETE FROM "recipe_diets" WHERE "recipe_diets"."id" = $1[0m  [["id", 198]]
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRecipeDiet Destroy (0.3ms)[0m  [1m[31mDELETE FROM "recipe_diets" WHERE "recipe_diets"."id" = $1[0m  [["id", 199]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRecipeDiet Destroy (0.3ms)[0m  [1m[31mDELETE FROM "recipe_diets" WHERE "recipe_diets"."id" = $1[0m  [["id", 200]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRecipe Create (0.6ms)[0m  [1m[32mINSERT INTO "recipes" ("name", "ingredients", "instructions", "image_url", "likes", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["name", "Fig Honey Martini"], ["ingredients", "3 fresh figs - quartered, 3 tablespoons fig jam, Juice of 1 lemon, 2 tablespoons honey, 6 oz vodka, Sliced fresh figs - as optional garnish"], ["instructions", "In a cocktail shaker, muddle the figs, jam, lemon juice, and honey together until the figs are mostly broken down.\nAdd ice and the vodka and shake the mixture vigorously for a few seconds to chill and incorporate the ingredients.\nStrain into martini glasses and garnish with slices of fresh fig. Serve immediately."], ["image_url", "https://images.unsplash.com/photo-1536599424071-0b215a388ba7?ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80"], ["likes", 0], ["created_at", "2020-05-29 13:27:24.968393"], ["updated_at", "2020-05-29 13:27:24.968393"]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRecipe Create (24.8ms)[0m  [1m[32mINSERT INTO "recipes" ("name", "ingredients", "instructions", "image_url", "likes", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["name", "Vegan Coconut Banana Pudding"], ["ingredients", "4 cups Vegan Peanut Butter Pudding, 3 cups full-fat coconut milk or cream, Stevia or powdered sugar"], ["instructions", "If you haven’t already, prepare your Peanut Butter Pudding and chill (cover with plastic wrap to prevent film). Set in refrigerator.\n        If you haven’t already, prepare a double batch of coconut whipped cream, using full-fat coconut milk or coconut cream and sweetening to taste with stevia or powdered sugar. Set in refrigerator.\n        In a large mixing bowl, use a rubber spatula to gently mix together pudding and half of the coconut whipped cream.\n        In a 9x13 inch (or comparable size) pan, begin by adding a layer of vanilla wafers (reserving some wafers for the top layer). Using three of the bananas, add a layer of thinly sliced bananas on top of the vanilla wafers.\n        For the next layer, top bananas with the pudding-coconut-whip mixture. Smooth the top with a wooden spoon. Use the same method to top with the remaining coconut whipped cream.\n        Cover and place in the refrigerator to chill for at least 4-6 hours, preferably overnight. Remove from fridge and top with a layer of loosely arranged sliced bananas. Crush remaining wafers and sprinkle on top. Sprinkle with crushed peanuts (if using)."], ["image_url", "https://images.unsplash.com/photo-1515544645059-de313dd20a58?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=632&q=80"], ["likes", 0], ["created_at", "2020-05-29 13:27:24.973522"], ["updated_at", "2020-05-29 13:27:24.973522"]]
+  [1m[35m (0.9ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRecipe Create (0.4ms)[0m  [1m[32mINSERT INTO "recipes" ("name", "ingredients", "instructions", "image_url", "likes", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["name", "Pink Grapefruit Margarita"], ["ingredients", "1 lime, cut in wedges - optional, Kosher salt - optional, 1 cup ruby red grapefruit juice, 1/2 cup freshly squeezed lime juice (4 limes), 1 cup orange liqueur, 2 cups ice, 1 cup white tequila"], ["instructions", "If you like a salt rim on the glasses, rub the lime around the edge of the glass and then dip the rim of each glass lightly in a plate of kosher salt. Set aside to dry.\n        Combine the grapefruit juice, lime juice, orange liqueur, and ice in a blender and puree until smooth. Pour into a large pitcher and stir in the tequila. If youre not serving the margaritas in salted glasses, stir 1/4 teaspoon of salt into the pitcher of margaritas. Believe me, it will make a difference!\n        Serve ice cold."], ["image_url", "https://images.unsplash.com/photo-1486428263684-28ec9e4f2584?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80"], ["likes", 0], ["created_at", "2020-05-29 13:27:25.004994"], ["updated_at", "2020-05-29 13:27:25.004994"]]
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRecipe Create (0.3ms)[0m  [1m[32mINSERT INTO "recipes" ("name", "ingredients", "instructions", "image_url", "likes", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["name", "Tumeric Cauliflower Soup"], ["ingredients", "1 large cauliflower, 2 tbsp olive oil, ½ tsp cinnamon, ½ tsp cumin, ½ tsp coriander, 2 tbsp harissa paste - plus extra drizzle, 1l hot vegetable or chicken stock, 50g toasted flaked almond - plus extra to serve"], ["instructions", "Cut the cauliflower into small florets. Fry olive oil, ground cinnamon, cumin and coriander and harissa paste for 2 mins in a large pan. Add the cauliflower, stock and almonds. Cover and cook for 20 mins until the cauliflower is tender. Blend soup until smooth, then serve with an extra drizzle of harissa and a sprinkle of toasted almonds."], ["image_url", "https://images.unsplash.com/photo-1505253668822-42074d58a7c6?ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80"], ["likes", 0], ["created_at", "2020-05-29 13:27:25.010352"], ["updated_at", "2020-05-29 13:27:25.010352"]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRecipe Create (0.3ms)[0m  [1m[32mINSERT INTO "recipes" ("name", "ingredients", "instructions", "image_url", "likes", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["name", "Avocado Toast"], ["ingredients", "2 slices bread, 1/2 – 3/4 medium ripe avocado, 1-2 Tbsp vegan parmesan, 1 pinch red pepper flake"], ["instructions", "Toast bread in the oven or toaster. Top with ripe avocado and use a fork to smash. Top with vegan parmesan cheese and (optional) red pepper flake. Eat, repeat, enjoy!"], ["image_url", "https://images.unsplash.com/photo-1505575156881-dd15ae275636?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=676&q=80"], ["likes", 0], ["created_at", "2020-05-29 13:27:25.015028"], ["updated_at", "2020-05-29 13:27:25.015028"]]
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRecipe Create (0.3ms)[0m  [1m[32mINSERT INTO "recipes" ("name", "ingredients", "instructions", "image_url", "likes", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["name", "Grilled Corn Veggie Tacos"], ["ingredients", "Handful of whole green beans, about 1 cup\n3 ears of fresh corn, ¼ cup chopped grilled onion, ½ cup halved or quartered cherry tomatoes, teaspoon extra-virgin olive oil, Juice of 1 lime, ½ cup chopped cilantro, Sea salt and freshly ground black pepper, 8 to 10 flour tortillas*, ½ cup crumbled feta cheese, 1 serrano pepper (sliced - optional)"], ["instructions", "Prep the green beans by blanching them in boiling water for 3 minutes, then transfer to a bowl of ice water. Once cool, transfer to a towel to dry and set aside.\nMake the Tomatillo salsa and chill until ready to use. Make the filling. Heat a grill to medium heat and grill the blanched green beans and the whole ears of corn until charred on all sides.\nChop the green beans into 1” pieces and add them to a large bowl with the onion and tomatoes. Slice the kernels off the corn and add those to the bowl as well. Add the olive oil, lime juice, cilantro, pinches of salt and pepper, and a few spoonfuls of the tomatillo salsa and toss. Season to taste.\nGrill or warm the tortillas. Assemble the tacos with the corn taco filling, feta cheese, and serrano slices, if desired. Top with salsa and serve the extra on the side."], ["image_url", "https://images.unsplash.com/photo-1511690078903-71dc5a49f5e3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=700&q=80"], ["likes", 0], ["created_at", "2020-05-29 13:27:25.019835"], ["updated_at", "2020-05-29 13:27:25.019835"]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (25.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRecipe Create (0.6ms)[0m  [1m[32mINSERT INTO "recipes" ("name", "ingredients", "instructions", "image_url", "likes", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["name", "Massaged Kale Salad"], ["ingredients", "2 large bundles curly kale, 1 Tbsp lemon juice, 1 Tbsp extra virgin olive oil, 1 healthy pinch sea salt. DRESSING: 1/3 cup tahini, 3 Tbsp lemon juice, 1-2 Tbsp maple syrup, 1 pinch sea salt, Water to thin"], ["instructions", "Once you’ve rinsed and dried your kale, run your hand along the stem to remove the green leaves from the stalky stem. You don’t have to remove the stem completely, but be sure to compost or reserve the larger bottom stalks for DIY vegetable broth. Stack your stalks of kale on top of each other and finely chop. No need to mince, just cut into manageable, bite-size pieces. Add kale to a large mixing / serving bowl and top with lemon juice and extra virgin olive oil. Then massage with clean hands for about 3 minutes. The point of massaging is to infuse the kale with the lemon juice and oil, and also to break down some of the tough, fibrous characteristics of kale. This makes it easier to chew and digest, and makes for a more tender salad. Season with salt, massage/toss once more, then set aside.\n        Next prepare the dressing by adding tahini, lemon juice, maple syrup, and salt (optional) to a medium mixing bowl. Whisk to combine. Then slowly add water until creamy and pourable. The mixture may seize up and thicken at first, but continue adding water a little at a time, whisking until creamy and smooth. Taste and adjust flavor as needed, adding more lemon juice for acidity, maple syrup for sweetness, or salt to taste. Set aside. (Store leftover dressing in the refrigerator up to 5-7 days — sometimes longer.)\n        To serve, top with desired amount of dressing and crispy chickpeas (optional), toss, and serve. Leftovers keep covered in the refrigerator up to 3-4 days (not freezer friendly)."], ["image_url", "https://images.unsplash.com/photo-1515543237350-b3eea1ec8082?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=632&q=80"], ["likes", 0], ["created_at", "2020-05-29 13:27:25.024164"], ["updated_at", "2020-05-29 13:27:25.024164"]]
+  [1m[35m (0.6ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRecipe Create (1.1ms)[0m  [1m[32mINSERT INTO "recipes" ("name", "ingredients", "instructions", "image_url", "likes", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["name", "Lemon Rosemary Roasted Chicken"], ["ingredients", "1 3-4 pound whole chicken, 2 Tbsp melted butter (Miyoko’s or Earth Balance for dairy-free, 3/4-1 Tbsp sea salt, 1-2 tsp black pepper, 1 small lemon - rinsed and quartered, 4 sprigs fresh rosemary (or sub thyme)"], ["instructions", "Set chicken on a clean plate then wash hands with hot soapy water. Melt butter and drizzle over the skin of the chicken and brush to distribute evenly. Season the exterior and interior cavity of the chicken with salt and pepper (as the recipe is written, about 3/4-1 Tbsp sea salt and 1-2 tsp black pepper). This sounds like a lot of salt, but there should be a generous layer of seasoning on the chicken so it flavors the meat well. (For a roughly 4 lb. chicken, we used about 1 Tbsp salt and 2 tsp black pepper total.) Insert the lemon and fresh rosemary into the cavity — this infuses more flavor and also makes for a more flavorful broth (if making broth afterward). Set the chicken in the fridge uncovered (this allows the chicken to dry out a bit, which helps it crisp more when roasting). Wait 24-36 hours (ideally) or at least 8-10 hours to cook. At this time, be sure to wash hands with hot soapy water again and clean all surfaces well to avoid spreading bacteria. Once you’re ready to cook your chicken, preheat oven to 450 degrees F (232 C). Get out a large rimmed roasting pan or cast-iron skillet (we like this baking dish). If adding veggies (optional) add carrots and potatoes to the pan. Drizzle with a bit of oil and season well with salt and pepper. Then toss to combine. Arrange the veggies around the perimeter of the dish, then add the chicken (breast side up) in the center (if not baking with veggies, just place chicken in center of pan). Bake for 45 minutes to 1 hour 15 minutes (UNCOVERED) or until the exterior is crispy and golden brown and the internal temperature of the thickest part of the thigh reads 165 F (74 C). I also like to measure the breast temperature to ensure it’s done in the center as well (also 165 F / 74 C). For an accurate read, be sure the thermometer is not touching bone. Remove from oven and let chicken rest for about 10-15 minutes before serving. This ensures the juices redistribute to keep the chicken moist. To slice the chicken, use a sharp knife to remove the wings and the thighs (option to cut the leg/drumstick from the thigh for easier serving portions). Then slice down either side of the breast bone and thinly slice the breasts into 1/4-inch serving portions. Use hands to carefully remove any other parts of meat from the bones. Lastly, if opting to make bone broth, save the bones (including the legs and wings after meat has been removed).\n        To serve, arrange the carrots and potatoes on a serving platter and top with pieces of chicken. You will likely have a generous portion of cooking juices left over in the roasting pan, which I recommend transferring to a small dish and serving on the side to add more flavor as a lazy but delicious form of 'gravy.'"], ["image_url", "https://minimalistbaker.com/wp-content/uploads/2019/10/EASY-Lemon-Herb-Roasted-Chicken-1-pan-6-ingredients-BIG-flavor-perfectly-tender-chicken-glutenfree-chicken-recipe-minimalistbaker-14.jpg"], ["likes", 0], ["created_at", "2020-05-29 13:27:25.056931"], ["updated_at", "2020-05-29 13:27:25.056931"]]
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mDiet Create (0.4ms)[0m  [1m[32mINSERT INTO "diets" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "vegetarian"], ["created_at", "2020-05-29 13:27:25.064151"], ["updated_at", "2020-05-29 13:27:25.064151"]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mDiet Create (0.3ms)[0m  [1m[32mINSERT INTO "diets" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "gluten-free"], ["created_at", "2020-05-29 13:27:25.068531"], ["updated_at", "2020-05-29 13:27:25.068531"]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mDiet Create (0.3ms)[0m  [1m[32mINSERT INTO "diets" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "Paleo"], ["created_at", "2020-05-29 13:27:25.072628"], ["updated_at", "2020-05-29 13:27:25.072628"]]
+  [1m[35m (43.8ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mDiet Create (17.2ms)[0m  [1m[32mINSERT INTO "diets" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "dairy-free"], ["created_at", "2020-05-29 13:27:25.121363"], ["updated_at", "2020-05-29 13:27:25.121363"]]
+  [1m[35m (0.7ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRecipeDiet Create (0.5ms)[0m  [1m[32mINSERT INTO "recipe_diets" ("recipe_id", "diet_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["recipe_id", 122], ["diet_id", 109], ["created_at", "2020-05-29 13:27:25.163074"], ["updated_at", "2020-05-29 13:27:25.163074"]]
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRecipeDiet Create (0.4ms)[0m  [1m[32mINSERT INTO "recipe_diets" ("recipe_id", "diet_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["recipe_id", 122], ["diet_id", 112], ["created_at", "2020-05-29 13:27:25.168932"], ["updated_at", "2020-05-29 13:27:25.168932"]]
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (24.0ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRecipeDiet Create (0.6ms)[0m  [1m[32mINSERT INTO "recipe_diets" ("recipe_id", "diet_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["recipe_id", 124], ["diet_id", 109], ["created_at", "2020-05-29 13:27:25.175281"], ["updated_at", "2020-05-29 13:27:25.175281"]]
+  [1m[35m (0.7ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRecipeDiet Create (0.3ms)[0m  [1m[32mINSERT INTO "recipe_diets" ("recipe_id", "diet_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["recipe_id", 124], ["diet_id", 112], ["created_at", "2020-05-29 13:27:25.206884"], ["updated_at", "2020-05-29 13:27:25.206884"]]
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRecipeDiet Create (0.3ms)[0m  [1m[32mINSERT INTO "recipe_diets" ("recipe_id", "diet_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["recipe_id", 124], ["diet_id", 110], ["created_at", "2020-05-29 13:27:25.212187"], ["updated_at", "2020-05-29 13:27:25.212187"]]
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRecipeDiet Create (0.3ms)[0m  [1m[32mINSERT INTO "recipe_diets" ("recipe_id", "diet_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["recipe_id", 124], ["diet_id", 111], ["created_at", "2020-05-29 13:27:25.217056"], ["updated_at", "2020-05-29 13:27:25.217056"]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRecipeDiet Create (0.3ms)[0m  [1m[32mINSERT INTO "recipe_diets" ("recipe_id", "diet_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["recipe_id", 125], ["diet_id", 111], ["created_at", "2020-05-29 13:27:25.221795"], ["updated_at", "2020-05-29 13:27:25.221795"]]
+  [1m[35m (25.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRecipeDiet Create (0.5ms)[0m  [1m[32mINSERT INTO "recipe_diets" ("recipe_id", "diet_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["recipe_id", 125], ["diet_id", 110], ["created_at", "2020-05-29 13:27:25.252304"], ["updated_at", "2020-05-29 13:27:25.252304"]]
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRecipeDiet Create (0.3ms)[0m  [1m[32mINSERT INTO "recipe_diets" ("recipe_id", "diet_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["recipe_id", 125], ["diet_id", 112], ["created_at", "2020-05-29 13:27:25.258940"], ["updated_at", "2020-05-29 13:27:25.258940"]]
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRecipeDiet Create (0.3ms)[0m  [1m[32mINSERT INTO "recipe_diets" ("recipe_id", "diet_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["recipe_id", 119], ["diet_id", 109], ["created_at", "2020-05-29 13:27:25.263688"], ["updated_at", "2020-05-29 13:27:25.263688"]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRecipeDiet Create (0.3ms)[0m  [1m[32mINSERT INTO "recipe_diets" ("recipe_id", "diet_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["recipe_id", 119], ["diet_id", 112], ["created_at", "2020-05-29 13:27:25.268235"], ["updated_at", "2020-05-29 13:27:25.268235"]]
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRecipeDiet Create (25.6ms)[0m  [1m[32mINSERT INTO "recipe_diets" ("recipe_id", "diet_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["recipe_id", 120], ["diet_id", 109], ["created_at", "2020-05-29 13:27:25.272745"], ["updated_at", "2020-05-29 13:27:25.272745"]]
+  [1m[35m (0.7ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRecipeDiet Create (0.4ms)[0m  [1m[32mINSERT INTO "recipe_diets" ("recipe_id", "diet_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["recipe_id", 120], ["diet_id", 110], ["created_at", "2020-05-29 13:27:25.304636"], ["updated_at", "2020-05-29 13:27:25.304636"]]
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRecipeDiet Create (0.3ms)[0m  [1m[32mINSERT INTO "recipe_diets" ("recipe_id", "diet_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["recipe_id", 120], ["diet_id", 112], ["created_at", "2020-05-29 13:27:25.310197"], ["updated_at", "2020-05-29 13:27:25.310197"]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRecipeDiet Create (0.3ms)[0m  [1m[32mINSERT INTO "recipe_diets" ("recipe_id", "diet_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["recipe_id", 118], ["diet_id", 112], ["created_at", "2020-05-29 13:27:25.314704"], ["updated_at", "2020-05-29 13:27:25.314704"]]
+  [1m[35m (24.0ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRecipeDiet Create (0.5ms)[0m  [1m[32mINSERT INTO "recipe_diets" ("recipe_id", "diet_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["recipe_id", 118], ["diet_id", 110], ["created_at", "2020-05-29 13:27:25.352468"], ["updated_at", "2020-05-29 13:27:25.352468"]]
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRecipeDiet Create (0.4ms)[0m  [1m[32mINSERT INTO "recipe_diets" ("recipe_id", "diet_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["recipe_id", 118], ["diet_id", 109], ["created_at", "2020-05-29 13:27:25.359143"], ["updated_at", "2020-05-29 13:27:25.359143"]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRecipeDiet Create (0.3ms)[0m  [1m[32mINSERT INTO "recipe_diets" ("recipe_id", "diet_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["recipe_id", 118], ["diet_id", 111], ["created_at", "2020-05-29 13:27:25.364129"], ["updated_at", "2020-05-29 13:27:25.364129"]]
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRecipeDiet Create (0.3ms)[0m  [1m[32mINSERT INTO "recipe_diets" ("recipe_id", "diet_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["recipe_id", 123], ["diet_id", 112], ["created_at", "2020-05-29 13:27:25.368934"], ["updated_at", "2020-05-29 13:27:25.368934"]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRecipeDiet Create (25.2ms)[0m  [1m[32mINSERT INTO "recipe_diets" ("recipe_id", "diet_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["recipe_id", 123], ["diet_id", 109], ["created_at", "2020-05-29 13:27:25.373565"], ["updated_at", "2020-05-29 13:27:25.373565"]]
+  [1m[35m (0.7ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRecipeDiet Create (0.4ms)[0m  [1m[32mINSERT INTO "recipe_diets" ("recipe_id", "diet_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["recipe_id", 121], ["diet_id", 110], ["created_at", "2020-05-29 13:27:25.405251"], ["updated_at", "2020-05-29 13:27:25.405251"]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRecipeDiet Create (0.3ms)[0m  [1m[32mINSERT INTO "recipe_diets" ("recipe_id", "diet_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["recipe_id", 121], ["diet_id", 112], ["created_at", "2020-05-29 13:27:25.410667"], ["updated_at", "2020-05-29 13:27:25.410667"]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRecipeDiet Create (0.3ms)[0m  [1m[32mINSERT INTO "recipe_diets" ("recipe_id", "diet_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["recipe_id", 121], ["diet_id", 111], ["created_at", "2020-05-29 13:27:25.415382"], ["updated_at", "2020-05-29 13:27:25.415382"]]
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mRecipeDiet Create (0.3ms)[0m  [1m[32mINSERT INTO "recipe_diets" ("recipe_id", "diet_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["recipe_id", 121], ["diet_id", 109], ["created_at", "2020-05-29 13:27:25.419918"], ["updated_at", "2020-05-29 13:27:25.419918"]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+Started GET "/api/v1/recipes" for ::1 at 2020-05-29 09:27:30 -0400
+Started GET "/api/v1/diets" for ::1 at 2020-05-29 09:27:30 -0400
+Processing by Api::V1::RecipesController#index as */*
+Processing by Api::V1::DietsController#index as */*
+  [1m[36mRecipe Load (1.0ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes"[0m
+  [1m[36mDiet Load (0.4ms)[0m  [1m[34mSELECT "diets".* FROM "diets"[0m
+  ↳ app/controllers/api/v1/diets_controller.rb:5:in `index'
+  ↳ app/controllers/api/v1/recipes_controller.rb:8:in `index'
+Completed 200 OK in 4ms (Views: 3.5ms | ActiveRecord: 0.4ms | Allocations: 1876)
+
+
+Completed 200 OK in 11ms (Views: 10.0ms | ActiveRecord: 1.0ms | Allocations: 3583)
+
+
