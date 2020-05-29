@@ -23,9 +23,9 @@ class Api::V1::RecipesController < ApplicationController
             render json:recipe
         end 
 
-        def delete
+        def destroy
             recipe = Recipe.find(params[:id])   
-            # render json: recipe
+            recipe.destroy 
         end 
 
         private
