@@ -1,24 +1,19 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+recipeKeeper
 
-Things you may want to cover:
+*This repo contains the backend for the recipeKeeper application. The frontend can be found here: https://github.com/toastcorners/recipeKeeper-client
 
-* Ruby version
+A simple single page application that serves as an interactive cookbook. A user can create, view, update, or delete recipes and well as filter through recipes based on the user's particular diet preferences. The back end for this application was created using Ruby on Rails and PostgresQL.
 
-* System dependencies
+To run this project locally, follow the below steps:
 
-* Configuration
+1.) clone down and cd into this repo
 
-* Database creation
+2.) run 'bundle install' to install dependencies
 
-* Database initialization
+3.) run 'rails db:seed' to seed the database
 
-* How to run the test suite
+4.) run 'rails s' to start the back end server
 
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+5.) follow the steps to start the front end here: https://github.com/toastcorners/recipeKeeper-client
