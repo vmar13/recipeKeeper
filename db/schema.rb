@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2020_05_24_190858) do
+ActiveRecord::Schema.define(version: 2020_08_03_203738) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -33,9 +33,9 @@ ActiveRecord::Schema.define(version: 2020_05_24_190858) do
     t.text "ingredients"
     t.text "instructions"
     t.string "image_url"
-    t.integer "likes"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
+    t.boolean "done_tagging"
   end
 
 end
