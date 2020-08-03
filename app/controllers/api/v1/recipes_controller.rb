@@ -20,7 +20,17 @@ class Api::V1::RecipesController < ApplicationController
 
         def create
             recipe = Recipe.create(recipe_params)
-            render json:recipe
+            render json: recipe
+        end 
+
+        def edit
+            recipe = Recipe.find(params[:id])
+            render json: recipe
+        end 
+
+        def update
+            recipe = Recipe.update(recipe_params)
+            render json: recipe
         end 
 
         def destroy
