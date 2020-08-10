@@ -1,19 +1,17 @@
-# README
+# recipeKeeper
 
-recipeKeeper
+A recipe book tool for users to manage all of their favorite meals. A user can create, view, or delete recipes, as well as filter them by diet (gluten-free, dairy-free, etc.). See the video demo: https://youtu.be/gzZPe8y9l1U  
 
-*This repo contains the backend for the recipeKeeper application. The frontend can be found here: https://github.com/toastcorners/recipeKeeper-client
+*Backend developed using Ruby on Rails and postgreSQL*
 
-A simple single page application that serves as an interactive cookbook. A user can create, view, update, or delete recipes and well as filter through recipes based on the user's particular diet preferences. The back end for this application was created using Ruby on Rails and PostgresQL.
+**This is the backend repository. You can view the frontend here:** https://github.com/vmar13/recipeKeeper-client 
 
-To run this project locally, follow the below steps:
+## Getting Started
 
-1.) clone down and cd into this repo
+1. Clone down and cd into this repo
+2. Run "bundle install" to install dependencies
+3. Run "rails db:seed" to seed the database
+4. Run "rails s" to start the server
+5. Start the frontend using the link **above**
 
-2.) run 'bundle install' to install dependencies
-
-3.) run 'rails db:seed' to seed the database
-
-4.) run 'rails s' to start the back end server
-
-5.) follow the steps to start the front end here: https://github.com/toastcorners/recipeKeeper-client
+**NOTE: This was a collaborative project built during the Flatiron School Software Engineering program. You can find the original repo here: https://github.com/toastcorners/recipeKeeper. Post-graduation, I forked the repo to develop the application further.**
